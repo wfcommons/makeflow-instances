@@ -14,13 +14,10 @@ statistical significance. The test case implemented as a
 aim to run BLAST tasks against large reference databases in a reasonable
 amount of time. This test case is composed of four different tasks:
 
-  1. `split_fasta` - reprojects a single image to the scale defined in an
-     alternate FITS header template.
-  2. `blastall` - Run mDiff immediatly followed by mFitplane and check the
-     first to decide whether to run the second.
-  3. `cat_blast` - Merge multiple plane fit parameter files (from mFitplane)
-     into one file.
-  4. `cat` - A modelling/fitting program.
+  1. `split_fasta` - split the reference file into pieces.
+  2. `blastall` - run the BLAST program.
+  3. `cat_blast` - merge results from each BLAST execution.
+  4. `cat` - merge error messages from each BLAST execution.
 
 The figure below shows an overview of the BLAST workflow structure:
 
