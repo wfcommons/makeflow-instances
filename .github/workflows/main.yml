@@ -3,7 +3,7 @@ name: Build and check validity of traces
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
