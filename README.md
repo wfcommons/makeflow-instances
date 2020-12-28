@@ -29,4 +29,5 @@ implements the
 
 | Application | Science Domain | Computing Platforms | # Execution Traces |
 | --- | --- | --- | --- |
-| Blast | Bioinformatics | 1 | 15 |
+| BLAST | Bioinformatics | 1 | 15 |
+| BWA | Bioinformatics | 1 | 15 |
