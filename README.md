@@ -27,7 +27,7 @@ implements the
 
 ## Summary of Workflow Execution Traces
 
-| Application | Science Domain | Computing Platforms | # Execution Traces |
+| Application | Science Domain | Category | Computing Platforms | # Execution Traces |
 | --- | --- | --- | --- |
-| BLAST | Bioinformatics | 1 | 15 |
-| BWA | Bioinformatics | 1 | 15 |
+| BLAST | Bioinformatics | Compute-intensive | 1 | 15 |
+| BWA | Bioinformatics | Data-intensive | 1 | 15 |
