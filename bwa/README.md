@@ -10,13 +10,13 @@
 low-divergent sequences against a large reference genome, such as the
 human genome. The test case implemented as a
 [Makeflow workflow](https://github.com/cooperative-computing-lab/makeflow-examples/tree/master/bwa)
-aim to run BLAST tasks against large reference databases in a reasonable
+aim to run BWA tasks against large reference databases in a reasonable
 amount of time. This test case is composed of five different tasks:
 
   1. `fastq_reduce` - subsample the reference file into parts.
   2. `bwa_index` - produce index from reference file.
   3. `bwa` - search for the queries in a shared reference database.
-  4. `cat_blast` - merge results from each BWA execution.
+  4. `cat_bwa` - merge results from each BWA execution.
   5. `cat` - merge error messages from each BWA execution.
 
 The figure below shows an overview of the BWA workflow structure:
