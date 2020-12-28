@@ -18,10 +18,10 @@ jobs:
         run: |
           pip3 install jsonschema
           pip3 install requests
-          git clone https://github.com/workflowhub/workflow-schema
       - name: Check validity of traces
         run: |
           find . -type f -name "*.json" > traces.txt && err=0
+          git clone https://github.com/workflowhub/workflow-schema
           for trace_file in `cat traces.txt`; do
             python3 ./workflow-schema/workflowhub-validator.py -d ${trace_file};
             (( err += $? ));
