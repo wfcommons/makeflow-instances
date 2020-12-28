@@ -10,11 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install dependencies
         run: |
           pip3 install jsonschema
           pip3 install requests
           cd ..; git clone https://github.com/workflowhub/workflow-schema
           cd pegasus-traces
+      - name: Check validity of traces
+        run: |
           find . -type f -name "*.json" > traces.txt && err=0
           for trace_file in `cat traces.txt`; do
             python3 ../workflow-schema/workflowhub-validator.py -d ${trace_file};
