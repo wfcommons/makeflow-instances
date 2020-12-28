@@ -1,0 +1,3241 @@
+{
+    "name": "makeflow-blast-small",
+    "description": "Trace generated with WorkflowHub - https://workflowhub.org",
+    "createdAt": "2020-12-26T18:07:30.880850",
+    "schemaVersion": "1.0",
+    "author": {
+        "name": "rafsilva",
+        "email": "support@workflowhub.org"
+    },
+    "wms": {
+        "name": "Makeflow",
+        "version": "7.1.12.",
+        "url": "http://ccl.cse.nd.edu/software/makeflow/"
+    },
+    "workflow": {
+        "executedAt": "2020-12-26T01:07:18+00:00",
+        "makespan": 902.68,
+        "jobs": [
+            {
+                "name": "split_fasta_ID000001",
+                "type": "compute",
+                "runtime": 0.053717,
+                "parents": [],
+                "children": [
+                    "blastall_ID000002",
+                    "blastall_ID000003",
+                    "blastall_ID000004",
+                    "blastall_ID000005",
+                    "blastall_ID000006",
+                    "blastall_ID000007",
+                    "blastall_ID000008",
+                    "blastall_ID000009",
+                    "blastall_ID000010",
+                    "blastall_ID000011",
+                    "blastall_ID000012",
+                    "blastall_ID000013",
+                    "blastall_ID000014",
+                    "blastall_ID000015",
+                    "blastall_ID000016",
+                    "blastall_ID000017",
+                    "blastall_ID000018",
+                    "blastall_ID000019",
+                    "blastall_ID000020",
+                    "blastall_ID000021",
+                    "blastall_ID000022",
+                    "blastall_ID000023",
+                    "blastall_ID000024",
+                    "blastall_ID000025",
+                    "blastall_ID000026",
+                    "blastall_ID000027",
+                    "blastall_ID000028",
+                    "blastall_ID000029",
+                    "blastall_ID000030",
+                    "blastall_ID000031",
+                    "blastall_ID000032",
+                    "blastall_ID000033",
+                    "blastall_ID000034",
+                    "blastall_ID000035",
+                    "blastall_ID000036",
+                    "blastall_ID000037",
+                    "blastall_ID000038",
+                    "blastall_ID000039",
+                    "blastall_ID000040",
+                    "blastall_ID000041"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.0",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.1",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.2",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.3",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.4",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.5",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.6",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.7",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.8",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.9",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.10",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.11",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.12",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.13",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.14",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.15",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.16",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.17",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.18",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.19",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.20",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.21",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.22",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.23",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.24",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.25",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.26",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.27",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.28",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.29",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.30",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.31",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.32",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.33",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.34",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.35",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.36",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.37",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.38",
+                        "size": 6
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.39",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "small.fasta",
+                        "size": 203
+                    },
+                    {
+                        "link": "input",
+                        "name": "split_fasta",
+                        "size": 1
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 95.0928,
+                "bytesRead": 660,
+                "bytesWritten": 312,
+                "memory": 3000,
+                "arguments": [
+                    "./split_fasta",
+                    "5",
+                    "small.fasta"
+                ],
+                "machine": "worker-1.novalocal"
+            },
+            {
+                "name": "blastall_ID000002",
+                "type": "compute",
+                "runtime": 9.255995,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.0.out",
+                        "size": 15
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.0.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.0",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9362,
+                "bytesRead": 49,
+                "bytesWritten": 31,
+                "memory": 517000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.0",
+                    "-o",
+                    "small.fasta.0.out",
+                    "2>",
+                    "small.fasta.0.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000003",
+                "type": "compute",
+                "runtime": 9.154785,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.1.out",
+                        "size": 26
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.1.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.1",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.929,
+                "bytesRead": 50,
+                "bytesWritten": 54,
+                "memory": 522000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.1",
+                    "-o",
+                    "small.fasta.1.out",
+                    "2>",
+                    "small.fasta.1.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000004",
+                "type": "compute",
+                "runtime": 8.505088,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.2.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.2.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.2",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9238,
+                "bytesRead": 50,
+                "bytesWritten": 23,
+                "memory": 570000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.2",
+                    "-o",
+                    "small.fasta.2.out",
+                    "2>",
+                    "small.fasta.2.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000005",
+                "type": "compute",
+                "runtime": 8.736951,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.3.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.3.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.3",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9141,
+                "bytesRead": 46,
+                "bytesWritten": 15,
+                "memory": 551000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.3",
+                    "-o",
+                    "small.fasta.3.out",
+                    "2>",
+                    "small.fasta.3.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000006",
+                "type": "compute",
+                "runtime": 9.231791,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.4.out",
+                        "size": 12
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.4.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.4",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9253,
+                "bytesRead": 46,
+                "bytesWritten": 23,
+                "memory": 512000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.4",
+                    "-o",
+                    "small.fasta.4.out",
+                    "2>",
+                    "small.fasta.4.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000007",
+                "type": "compute",
+                "runtime": 9.631536,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.5.out",
+                        "size": 15
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.5.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.5",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9289,
+                "bytesRead": 47,
+                "bytesWritten": 31,
+                "memory": 494000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.5",
+                    "-o",
+                    "small.fasta.5.out",
+                    "2>",
+                    "small.fasta.5.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000008",
+                "type": "compute",
+                "runtime": 8.990442,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.6.out",
+                        "size": 8
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.6.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.6",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9339,
+                "bytesRead": 51,
+                "bytesWritten": 15,
+                "memory": 538000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.6",
+                    "-o",
+                    "small.fasta.6.out",
+                    "2>",
+                    "small.fasta.6.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000009",
+                "type": "compute",
+                "runtime": 10.366611,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.7.out",
+                        "size": 13
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.7.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.7",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 94.4213,
+                "bytesRead": 46,
+                "bytesWritten": 23,
+                "memory": 490000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.7",
+                    "-o",
+                    "small.fasta.7.out",
+                    "2>",
+                    "small.fasta.7.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000010",
+                "type": "compute",
+                "runtime": 9.291104,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.8.out",
+                        "size": 14
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.8.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.8",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9445,
+                "bytesRead": 51,
+                "bytesWritten": 31,
+                "memory": 528000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.8",
+                    "-o",
+                    "small.fasta.8.out",
+                    "2>",
+                    "small.fasta.8.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000011",
+                "type": "compute",
+                "runtime": 8.910924,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.9.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.9.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.9",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9526,
+                "bytesRead": 50,
+                "bytesWritten": 23,
+                "memory": 531000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.9",
+                    "-o",
+                    "small.fasta.9.out",
+                    "2>",
+                    "small.fasta.9.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000012",
+                "type": "compute",
+                "runtime": 10.265695,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.10.out",
+                        "size": 14
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.10.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.10",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.3968,
+                "bytesRead": 46,
+                "bytesWritten": 31,
+                "memory": 935000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.10",
+                    "-o",
+                    "small.fasta.10.out",
+                    "2>",
+                    "small.fasta.10.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000013",
+                "type": "compute",
+                "runtime": 9.952043,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.11.out",
+                        "size": 14
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.11.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.11",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9447,
+                "bytesRead": 50,
+                "bytesWritten": 31,
+                "memory": 463000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.11",
+                    "-o",
+                    "small.fasta.11.out",
+                    "2>",
+                    "small.fasta.11.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000014",
+                "type": "compute",
+                "runtime": 9.636969,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.12.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.12.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.12",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9668,
+                "bytesRead": 46,
+                "bytesWritten": 23,
+                "memory": 491000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.12",
+                    "-o",
+                    "small.fasta.12.out",
+                    "2>",
+                    "small.fasta.12.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000015",
+                "type": "compute",
+                "runtime": 9.820818,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.13.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.13.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.13",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9601,
+                "bytesRead": 46,
+                "bytesWritten": 15,
+                "memory": 496000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.13",
+                    "-o",
+                    "small.fasta.13.out",
+                    "2>",
+                    "small.fasta.13.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000016",
+                "type": "compute",
+                "runtime": 10.00115,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.14.out",
+                        "size": 25
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.14.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.14",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9584,
+                "bytesRead": 45,
+                "bytesWritten": 46,
+                "memory": 503000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.14",
+                    "-o",
+                    "small.fasta.14.out",
+                    "2>",
+                    "small.fasta.14.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000017",
+                "type": "compute",
+                "runtime": 9.877872,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.15.out",
+                        "size": 10
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.15.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.15",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9292,
+                "bytesRead": 46,
+                "bytesWritten": 23,
+                "memory": 475000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.15",
+                    "-o",
+                    "small.fasta.15.out",
+                    "2>",
+                    "small.fasta.15.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000018",
+                "type": "compute",
+                "runtime": 9.383356,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.16.out",
+                        "size": 21
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.16.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.16",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9473,
+                "bytesRead": 51,
+                "bytesWritten": 39,
+                "memory": 539000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.16",
+                    "-o",
+                    "small.fasta.16.out",
+                    "2>",
+                    "small.fasta.16.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000019",
+                "type": "compute",
+                "runtime": 8.971048,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.17.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.17.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.17",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9287,
+                "bytesRead": 47,
+                "bytesWritten": 23,
+                "memory": 531000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.17",
+                    "-o",
+                    "small.fasta.17.out",
+                    "2>",
+                    "small.fasta.17.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000020",
+                "type": "compute",
+                "runtime": 9.433881,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.18.out",
+                        "size": 19
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.18.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.18",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9533,
+                "bytesRead": 52,
+                "bytesWritten": 39,
+                "memory": 504000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.18",
+                    "-o",
+                    "small.fasta.18.out",
+                    "2>",
+                    "small.fasta.18.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000021",
+                "type": "compute",
+                "runtime": 9.08081,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.19.out",
+                        "size": 11
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.19.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.19",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9233,
+                "bytesRead": 51,
+                "bytesWritten": 23,
+                "memory": 525000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.19",
+                    "-o",
+                    "small.fasta.19.out",
+                    "2>",
+                    "small.fasta.19.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000022",
+                "type": "compute",
+                "runtime": 9.324726,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.20.out",
+                        "size": 18
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.20.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.20",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9274,
+                "bytesRead": 46,
+                "bytesWritten": 39,
+                "memory": 523000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.20",
+                    "-o",
+                    "small.fasta.20.out",
+                    "2>",
+                    "small.fasta.20.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000023",
+                "type": "compute",
+                "runtime": 9.739268,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.21.out",
+                        "size": 17
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.21.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.21",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 97.8794,
+                "bytesRead": 51,
+                "bytesWritten": 39,
+                "memory": 508000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.21",
+                    "-o",
+                    "small.fasta.21.out",
+                    "2>",
+                    "small.fasta.21.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000024",
+                "type": "compute",
+                "runtime": 9.4124,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.22.out",
+                        "size": 22
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.22.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.22",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9282,
+                "bytesRead": 50,
+                "bytesWritten": 46,
+                "memory": 521000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.22",
+                    "-o",
+                    "small.fasta.22.out",
+                    "2>",
+                    "small.fasta.22.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000025",
+                "type": "compute",
+                "runtime": 9.045774,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.23.out",
+                        "size": 28
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.23.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.23",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9493,
+                "bytesRead": 46,
+                "bytesWritten": 54,
+                "memory": 539000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.23",
+                    "-o",
+                    "small.fasta.23.out",
+                    "2>",
+                    "small.fasta.23.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000026",
+                "type": "compute",
+                "runtime": 8.978534,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.24.out",
+                        "size": 12
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.24.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.24",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.958,
+                "bytesRead": 46,
+                "bytesWritten": 23,
+                "memory": 542000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.24",
+                    "-o",
+                    "small.fasta.24.out",
+                    "2>",
+                    "small.fasta.24.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000027",
+                "type": "compute",
+                "runtime": 9.219328,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.25.out",
+                        "size": 17
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.25.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.25",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9259,
+                "bytesRead": 46,
+                "bytesWritten": 31,
+                "memory": 526000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.25",
+                    "-o",
+                    "small.fasta.25.out",
+                    "2>",
+                    "small.fasta.25.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000028",
+                "type": "compute",
+                "runtime": 9.10074,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.26.out",
+                        "size": 15
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.26.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.26",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9559,
+                "bytesRead": 49,
+                "bytesWritten": 31,
+                "memory": 535000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.26",
+                    "-o",
+                    "small.fasta.26.out",
+                    "2>",
+                    "small.fasta.26.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000029",
+                "type": "compute",
+                "runtime": 9.82462,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.27.out",
+                        "size": 40
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.27.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.27",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 92.0456,
+                "bytesRead": 46,
+                "bytesWritten": 78,
+                "memory": 548000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.27",
+                    "-o",
+                    "small.fasta.27.out",
+                    "2>",
+                    "small.fasta.27.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000030",
+                "type": "compute",
+                "runtime": 9.433463,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.28.out",
+                        "size": 21
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.28.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.28",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9637,
+                "bytesRead": 46,
+                "bytesWritten": 46,
+                "memory": 520000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.28",
+                    "-o",
+                    "small.fasta.28.out",
+                    "2>",
+                    "small.fasta.28.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000031",
+                "type": "compute",
+                "runtime": 9.149213,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.29.out",
+                        "size": 10
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.29.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.29",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9284,
+                "bytesRead": 50,
+                "bytesWritten": 23,
+                "memory": 523000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.29",
+                    "-o",
+                    "small.fasta.29.out",
+                    "2>",
+                    "small.fasta.29.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000032",
+                "type": "compute",
+                "runtime": 9.921458,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.30.out",
+                        "size": 7
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.30.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.30",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9433,
+                "bytesRead": 51,
+                "bytesWritten": 15,
+                "memory": 474000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.30",
+                    "-o",
+                    "small.fasta.30.out",
+                    "2>",
+                    "small.fasta.30.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000033",
+                "type": "compute",
+                "runtime": 9.943871,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.31.out",
+                        "size": 12
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.31.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.31",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9338,
+                "bytesRead": 50,
+                "bytesWritten": 23,
+                "memory": 476000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.31",
+                    "-o",
+                    "small.fasta.31.out",
+                    "2>",
+                    "small.fasta.31.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000034",
+                "type": "compute",
+                "runtime": 9.563403,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.32.out",
+                        "size": 13
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.32.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.32",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9322,
+                "bytesRead": 46,
+                "bytesWritten": 31,
+                "memory": 505000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.32",
+                    "-o",
+                    "small.fasta.32.out",
+                    "2>",
+                    "small.fasta.32.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000035",
+                "type": "compute",
+                "runtime": 10.034379,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.33.out",
+                        "size": 22
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.33.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.33",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9363,
+                "bytesRead": 50,
+                "bytesWritten": 46,
+                "memory": 472000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.33",
+                    "-o",
+                    "small.fasta.33.out",
+                    "2>",
+                    "small.fasta.33.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000036",
+                "type": "compute",
+                "runtime": 10.355631,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.34.out",
+                        "size": 13
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.34.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.34",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9574,
+                "bytesRead": 50,
+                "bytesWritten": 31,
+                "memory": 928000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.34",
+                    "-o",
+                    "small.fasta.34.out",
+                    "2>",
+                    "small.fasta.34.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000037",
+                "type": "compute",
+                "runtime": 10.537367,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.35.out",
+                        "size": 27
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.35.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.35",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9464,
+                "bytesRead": 45,
+                "bytesWritten": 54,
+                "memory": 930000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.35",
+                    "-o",
+                    "small.fasta.35.out",
+                    "2>",
+                    "small.fasta.35.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000038",
+                "type": "compute",
+                "runtime": 9.864345,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.36.out",
+                        "size": 27
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.36.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.36",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9393,
+                "bytesRead": 50,
+                "bytesWritten": 54,
+                "memory": 507000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.36",
+                    "-o",
+                    "small.fasta.36.out",
+                    "2>",
+                    "small.fasta.36.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000039",
+                "type": "compute",
+                "runtime": 8.771201,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.37.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.37.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.37",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.3905,
+                "bytesRead": 47,
+                "bytesWritten": 23,
+                "memory": 544000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.37",
+                    "-o",
+                    "small.fasta.37.out",
+                    "2>",
+                    "small.fasta.37.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000040",
+                "type": "compute",
+                "runtime": 9.889476,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.38.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.38.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.38",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.9481,
+                "bytesRead": 46,
+                "bytesWritten": 23,
+                "memory": 470000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.38",
+                    "-o",
+                    "small.fasta.38.out",
+                    "2>",
+                    "small.fasta.38.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "blastall_ID000041",
+                "type": "compute",
+                "runtime": 9.61106,
+                "parents": [
+                    "split_fasta_ID000001"
+                ],
+                "children": [
+                    "cat_blast_ID000042",
+                    "cat_ID000043"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "small.fasta.39.out",
+                        "size": 14
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.39.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.39",
+                        "size": 6
+                    },
+                    {
+                        "link": "input",
+                        "name": "nt",
+                        "size": 436136
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 99.962,
+                "bytesRead": 51,
+                "bytesWritten": 31,
+                "memory": 501000,
+                "arguments": [
+                    "./blastall",
+                    "-p",
+                    "blastn",
+                    "-d",
+                    "nt/nt",
+                    "-i",
+                    "small.fasta.39",
+                    "-o",
+                    "small.fasta.39.out",
+                    "2>",
+                    "small.fasta.39.err"
+                ],
+                "machine": "worker-2.novalocal"
+            },
+            {
+                "name": "cat_blast_ID000042",
+                "type": "compute",
+                "runtime": 0.035678,
+                "parents": [
+                    "blastall_ID000002",
+                    "blastall_ID000003",
+                    "blastall_ID000004",
+                    "blastall_ID000005",
+                    "blastall_ID000006",
+                    "blastall_ID000007",
+                    "blastall_ID000008",
+                    "blastall_ID000009",
+                    "blastall_ID000010",
+                    "blastall_ID000011",
+                    "blastall_ID000012",
+                    "blastall_ID000013",
+                    "blastall_ID000014",
+                    "blastall_ID000015",
+                    "blastall_ID000016",
+                    "blastall_ID000017",
+                    "blastall_ID000018",
+                    "blastall_ID000019",
+                    "blastall_ID000020",
+                    "blastall_ID000021",
+                    "blastall_ID000022",
+                    "blastall_ID000023",
+                    "blastall_ID000024",
+                    "blastall_ID000025",
+                    "blastall_ID000026",
+                    "blastall_ID000027",
+                    "blastall_ID000028",
+                    "blastall_ID000029",
+                    "blastall_ID000030",
+                    "blastall_ID000031",
+                    "blastall_ID000032",
+                    "blastall_ID000033",
+                    "blastall_ID000034",
+                    "blastall_ID000035",
+                    "blastall_ID000036",
+                    "blastall_ID000037",
+                    "blastall_ID000038",
+                    "blastall_ID000039",
+                    "blastall_ID000040",
+                    "blastall_ID000041"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "None",
+                        "size": 520
+                    },
+                    {
+                        "link": "input",
+                        "name": "cat_blast",
+                        "size": 1
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.0.out",
+                        "size": 15
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.1.out",
+                        "size": 26
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.2.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.3.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.4.out",
+                        "size": 12
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.5.out",
+                        "size": 15
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.6.out",
+                        "size": 8
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.7.out",
+                        "size": 13
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.8.out",
+                        "size": 14
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.9.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.10.out",
+                        "size": 14
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.11.out",
+                        "size": 14
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.12.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.13.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.14.out",
+                        "size": 25
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.15.out",
+                        "size": 10
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.16.out",
+                        "size": 21
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.17.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.18.out",
+                        "size": 19
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.19.out",
+                        "size": 11
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.20.out",
+                        "size": 18
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.21.out",
+                        "size": 17
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.22.out",
+                        "size": 22
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.23.out",
+                        "size": 28
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.24.out",
+                        "size": 12
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.25.out",
+                        "size": 17
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.26.out",
+                        "size": 15
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.27.out",
+                        "size": 40
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.28.out",
+                        "size": 21
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.29.out",
+                        "size": 10
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.30.out",
+                        "size": 7
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.31.out",
+                        "size": 12
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.32.out",
+                        "size": 13
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.33.out",
+                        "size": 22
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.34.out",
+                        "size": 13
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.35.out",
+                        "size": 27
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.36.out",
+                        "size": 27
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.37.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.38.out",
+                        "size": 9
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.39.out",
+                        "size": 14
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 93.1975,
+                "bytesRead": 1158,
+                "bytesWritten": 496,
+                "memory": 3000,
+                "arguments": [
+                    "./cat_blast",
+                    "None",
+                    "small.fasta.0.out",
+                    "small.fasta.1.out",
+                    "small.fasta.2.out",
+                    "small.fasta.3.out",
+                    "small.fasta.4.out",
+                    "small.fasta.5.out",
+                    "small.fasta.6.out",
+                    "small.fasta.7.out",
+                    "small.fasta.8.out",
+                    "small.fasta.9.out",
+                    "small.fasta.10.out",
+                    "small.fasta.11.out",
+                    "small.fasta.12.out",
+                    "small.fasta.13.out",
+                    "small.fasta.14.out",
+                    "small.fasta.15.out",
+                    "small.fasta.16.out",
+                    "small.fasta.17.out",
+                    "small.fasta.18.out",
+                    "small.fasta.19.out",
+                    "small.fasta.20.out",
+                    "small.fasta.21.out",
+                    "small.fasta.22.out",
+                    "small.fasta.23.out",
+                    "small.fasta.24.out",
+                    "small.fasta.25.out",
+                    "small.fasta.26.out",
+                    "small.fasta.27.out",
+                    "small.fasta.28.out",
+                    "small.fasta.29.out",
+                    "small.fasta.30.out",
+                    "small.fasta.31.out",
+                    "small.fasta.32.out",
+                    "small.fasta.33.out",
+                    "small.fasta.34.out",
+                    "small.fasta.35.out",
+                    "small.fasta.36.out",
+                    "small.fasta.37.out",
+                    "small.fasta.38.out",
+                    "small.fasta.39.out"
+                ],
+                "machine": "worker-1.novalocal"
+            },
+            {
+                "name": "cat_ID000043",
+                "type": "compute",
+                "runtime": 0.009646,
+                "parents": [
+                    "blastall_ID000002",
+                    "blastall_ID000003",
+                    "blastall_ID000004",
+                    "blastall_ID000005",
+                    "blastall_ID000006",
+                    "blastall_ID000007",
+                    "blastall_ID000008",
+                    "blastall_ID000009",
+                    "blastall_ID000010",
+                    "blastall_ID000011",
+                    "blastall_ID000012",
+                    "blastall_ID000013",
+                    "blastall_ID000014",
+                    "blastall_ID000015",
+                    "blastall_ID000016",
+                    "blastall_ID000017",
+                    "blastall_ID000018",
+                    "blastall_ID000019",
+                    "blastall_ID000020",
+                    "blastall_ID000021",
+                    "blastall_ID000022",
+                    "blastall_ID000023",
+                    "blastall_ID000024",
+                    "blastall_ID000025",
+                    "blastall_ID000026",
+                    "blastall_ID000027",
+                    "blastall_ID000028",
+                    "blastall_ID000029",
+                    "blastall_ID000030",
+                    "blastall_ID000031",
+                    "blastall_ID000032",
+                    "blastall_ID000033",
+                    "blastall_ID000034",
+                    "blastall_ID000035",
+                    "blastall_ID000036",
+                    "blastall_ID000037",
+                    "blastall_ID000038",
+                    "blastall_ID000039",
+                    "blastall_ID000040",
+                    "blastall_ID000041"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "None.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.0.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.1.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.2.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.3.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.4.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.5.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.6.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.7.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.8.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.9.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.10.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.11.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.12.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.13.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.14.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.15.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.16.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.17.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.18.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.19.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.20.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.21.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.22.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.23.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.24.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.25.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.26.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.27.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.28.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.29.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.30.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.31.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.32.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.33.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.34.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.35.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.36.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.37.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.38.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "small.fasta.39.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1,
+                "avgCPU": 66.95,
+                "bytesRead": 12,
+                "memory": 3000,
+                "arguments": [
+                    "cat",
+                    "small.fasta.0.err",
+                    "small.fasta.1.err",
+                    "small.fasta.2.err",
+                    "small.fasta.3.err",
+                    "small.fasta.4.err",
+                    "small.fasta.5.err",
+                    "small.fasta.6.err",
+                    "small.fasta.7.err",
+                    "small.fasta.8.err",
+                    "small.fasta.9.err",
+                    "small.fasta.10.err",
+                    "small.fasta.11.err",
+                    "small.fasta.12.err",
+                    "small.fasta.13.err",
+                    "small.fasta.14.err",
+                    "small.fasta.15.err",
+                    "small.fasta.16.err",
+                    "small.fasta.17.err",
+                    "small.fasta.18.err",
+                    "small.fasta.19.err",
+                    "small.fasta.20.err",
+                    "small.fasta.21.err",
+                    "small.fasta.22.err",
+                    "small.fasta.23.err",
+                    "small.fasta.24.err",
+                    "small.fasta.25.err",
+                    "small.fasta.26.err",
+                    "small.fasta.27.err",
+                    "small.fasta.28.err",
+                    "small.fasta.29.err",
+                    "small.fasta.30.err",
+                    "small.fasta.31.err",
+                    "small.fasta.32.err",
+                    "small.fasta.33.err",
+                    "small.fasta.34.err",
+                    "small.fasta.35.err",
+                    "small.fasta.36.err",
+                    "small.fasta.37.err",
+                    "small.fasta.38.err",
+                    "small.fasta.39.err",
+                    ">",
+                    "None.err"
+                ],
+                "machine": "worker-1.novalocal"
+            }
+        ],
+        "machines": [
+            {
+                "nodeName": "worker-1.novalocal",
+                "cpu": {
+                    "count": 24
+                }
+            },
+            {
+                "nodeName": "worker-2.novalocal",
+                "cpu": {
+                    "count": 24
+                }
+            }
+        ]
+    }
+}
