@@ -1,4 +1,4 @@
-![Build](https://github.com/workflowhub/makeflow-traces/workflows/Build%20and%20check%20validity%20of%20traces/badge.svg)
+![Build](https://github.com/workflowhub/makeflow-traces/workflows/Build/badge.svg)
 
 <a href="https://workflowhub.org" target="_blank"><img src="https://workflowhub.org/assets/images/logo-horizontal.png" width="300" /></a>
 
