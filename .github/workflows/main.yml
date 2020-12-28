@@ -22,12 +22,9 @@ jobs:
         run: |
           find . -type f -name "*.json" > traces.txt && err=0
           git clone https://github.com/workflowhub/workflow-schema
+          err_report() { echo "Error on trace file $1" }
           for trace_file in `cat traces.txt`; do
+            trap 'err_report ${trace_file}' ERR;
             python3 ./workflow-schema/workflowhub-validator.py -d ${trace_file};
-            (( err += $? ));
             echo "";
           done
-          if [ $err -ne 0 ]; then
-            echo "The verification failed for ${err} trace files.";
-            exit 1;
-          fi
