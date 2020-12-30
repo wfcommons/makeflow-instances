@@ -1,7 +1,7 @@
 {
     "name": "makeflow-bwa-small",
     "description": "Trace generated with WorkflowHub - https://workflowhub.org",
-    "createdAt": "2020-12-28T17:13:58.905703",
+    "createdAt": "2020-12-30T02:19:01.643774",
     "schemaVersion": "1.0",
     "author": {
         "name": "rafsilva",
@@ -837,32 +837,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.0",
                         "size": 24
                     }
@@ -920,32 +920,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.1",
                         "size": 25
                     }
@@ -1003,32 +1003,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.2",
                         "size": 25
                     }
@@ -1086,32 +1086,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.3",
                         "size": 25
                     }
@@ -1169,32 +1169,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.4",
                         "size": 25
                     }
@@ -1252,32 +1252,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.5",
                         "size": 25
                     }
@@ -1335,32 +1335,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.6",
                         "size": 25
                     }
@@ -1418,32 +1418,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.7",
                         "size": 25
                     }
@@ -1501,32 +1501,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.8",
                         "size": 25
                     }
@@ -1584,32 +1584,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.9",
                         "size": 25
                     }
@@ -1667,32 +1667,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.10",
                         "size": 25
                     }
@@ -1750,32 +1750,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.11",
                         "size": 25
                     }
@@ -1833,32 +1833,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.12",
                         "size": 25
                     }
@@ -1916,32 +1916,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.13",
                         "size": 25
                     }
@@ -1999,32 +1999,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.14",
                         "size": 25
                     }
@@ -2082,32 +2082,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.15",
                         "size": 25
                     }
@@ -2165,32 +2165,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.16",
                         "size": 25
                     }
@@ -2248,32 +2248,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.17",
                         "size": 25
                     }
@@ -2331,32 +2331,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.18",
                         "size": 25
                     }
@@ -2414,32 +2414,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.19",
                         "size": 25
                     }
@@ -2497,32 +2497,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.20",
                         "size": 25
                     }
@@ -2580,32 +2580,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.21",
                         "size": 25
                     }
@@ -2663,32 +2663,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.22",
                         "size": 25
                     }
@@ -2746,32 +2746,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.23",
                         "size": 25
                     }
@@ -2829,32 +2829,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.24",
                         "size": 25
                     }
@@ -2912,32 +2912,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.25",
                         "size": 25
                     }
@@ -2995,32 +2995,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.26",
                         "size": 25
                     }
@@ -3078,32 +3078,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.27",
                         "size": 25
                     }
@@ -3161,32 +3161,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.28",
                         "size": 25
                     }
@@ -3244,32 +3244,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.29",
                         "size": 25
                     }
@@ -3327,32 +3327,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.30",
                         "size": 25
                     }
@@ -3410,32 +3410,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.31",
                         "size": 25
                     }
@@ -3493,32 +3493,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.32",
                         "size": 25
                     }
@@ -3576,32 +3576,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.33",
                         "size": 25
                     }
@@ -3659,32 +3659,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.34",
                         "size": 25
                     }
@@ -3742,32 +3742,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.35",
                         "size": 25
                     }
@@ -3825,32 +3825,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.36",
                         "size": 25
                     }
@@ -3908,32 +3908,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.37",
                         "size": 25
                     }
@@ -3991,32 +3991,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.38",
                         "size": 25
                     }
@@ -4074,32 +4074,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.39",
                         "size": 25
                     }
@@ -4157,32 +4157,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.40",
                         "size": 25
                     }
@@ -4240,32 +4240,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.41",
                         "size": 25
                     }
@@ -4323,32 +4323,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.42",
                         "size": 25
                     }
@@ -4406,32 +4406,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.43",
                         "size": 25
                     }
@@ -4489,32 +4489,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.44",
                         "size": 25
                     }
@@ -4572,32 +4572,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.45",
                         "size": 25
                     }
@@ -4655,32 +4655,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.46",
                         "size": 25
                     }
@@ -4738,32 +4738,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.47",
                         "size": 25
                     }
@@ -4821,32 +4821,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.48",
                         "size": 25
                     }
@@ -4904,32 +4904,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.49",
                         "size": 25
                     }
@@ -4987,32 +4987,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.50",
                         "size": 25
                     }
@@ -5070,32 +5070,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.51",
                         "size": 25
                     }
@@ -5153,32 +5153,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.52",
                         "size": 25
                     }
@@ -5236,32 +5236,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.53",
                         "size": 25
                     }
@@ -5319,32 +5319,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.54",
                         "size": 25
                     }
@@ -5402,32 +5402,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.55",
                         "size": 25
                     }
@@ -5485,32 +5485,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.56",
                         "size": 25
                     }
@@ -5568,32 +5568,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.57",
                         "size": 25
                     }
@@ -5651,32 +5651,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.58",
                         "size": 25
                     }
@@ -5734,32 +5734,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.59",
                         "size": 25
                     }
@@ -5817,32 +5817,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.60",
                         "size": 25
                     }
@@ -5900,32 +5900,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.61",
                         "size": 25
                     }
@@ -5983,32 +5983,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.62",
                         "size": 25
                     }
@@ -6066,32 +6066,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.63",
                         "size": 25
                     }
@@ -6149,32 +6149,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.64",
                         "size": 25
                     }
@@ -6232,32 +6232,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.65",
                         "size": 25
                     }
@@ -6315,32 +6315,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.66",
                         "size": 25
                     }
@@ -6398,32 +6398,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.67",
                         "size": 25
                     }
@@ -6481,32 +6481,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.68",
                         "size": 25
                     }
@@ -6564,32 +6564,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.69",
                         "size": 25
                     }
@@ -6647,32 +6647,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.70",
                         "size": 25
                     }
@@ -6730,32 +6730,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.71",
                         "size": 25
                     }
@@ -6813,32 +6813,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.72",
                         "size": 25
                     }
@@ -6896,32 +6896,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.73",
                         "size": 25
                     }
@@ -6979,32 +6979,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.74",
                         "size": 25
                     }
@@ -7062,32 +7062,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.75",
                         "size": 25
                     }
@@ -7145,32 +7145,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.76",
                         "size": 25
                     }
@@ -7228,32 +7228,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.77",
                         "size": 25
                     }
@@ -7311,32 +7311,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.78",
                         "size": 25
                     }
@@ -7394,32 +7394,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.79",
                         "size": 25
                     }
@@ -7477,32 +7477,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.80",
                         "size": 25
                     }
@@ -7560,32 +7560,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.81",
                         "size": 25
                     }
@@ -7643,32 +7643,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.82",
                         "size": 25
                     }
@@ -7726,32 +7726,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.83",
                         "size": 25
                     }
@@ -7809,32 +7809,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.84",
                         "size": 25
                     }
@@ -7892,32 +7892,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.85",
                         "size": 25
                     }
@@ -7975,32 +7975,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.86",
                         "size": 25
                     }
@@ -8058,32 +8058,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.87",
                         "size": 25
                     }
@@ -8141,32 +8141,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.88",
                         "size": 25
                     }
@@ -8224,32 +8224,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.89",
                         "size": 25
                     }
@@ -8307,32 +8307,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.90",
                         "size": 25
                     }
@@ -8390,32 +8390,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.91",
                         "size": 25
                     }
@@ -8473,32 +8473,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.92",
                         "size": 25
                     }
@@ -8556,32 +8556,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.93",
                         "size": 25
                     }
@@ -8639,32 +8639,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.94",
                         "size": 25
                     }
@@ -8722,32 +8722,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.95",
                         "size": 25
                     }
@@ -8805,32 +8805,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.96",
                         "size": 25
                     }
@@ -8888,32 +8888,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.97",
                         "size": 25
                     }
@@ -8971,32 +8971,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.98",
                         "size": 25
                     }
@@ -9054,32 +9054,32 @@
                         "size": 200438
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.bwt",
                         "size": 100001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.pac",
                         "size": 25001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.amb",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.ann",
                         "size": 577
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "ref.fastq.sa",
                         "size": 50001
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.99",
                         "size": 25
                     }
@@ -9222,502 +9222,502 @@
                         "size": 2
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.0.sam",
                         "size": 516
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.1.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.2.sam",
                         "size": 516
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.3.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.4.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.5.sam",
                         "size": 516
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.6.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.7.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.8.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.9.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.10.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.11.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.12.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.13.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.14.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.15.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.16.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.17.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.18.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.19.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.20.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.21.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.22.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.23.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.24.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.25.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.26.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.27.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.28.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.29.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.30.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.31.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.32.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.33.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.34.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.35.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.36.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.37.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.38.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.39.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.40.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.41.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.42.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.43.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.44.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.45.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.46.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.47.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.48.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.49.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.50.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.51.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.52.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.53.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.54.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.55.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.56.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.57.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.58.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.59.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.60.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.61.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.62.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.63.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.64.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.65.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.66.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.67.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.68.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.69.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.70.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.71.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.72.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.73.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.74.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.75.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.76.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.77.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.78.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.79.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.80.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.81.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.82.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.83.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.84.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.85.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.86.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.87.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.88.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.89.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.90.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.91.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.92.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.93.sam",
                         "size": 519
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.94.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.95.sam",
                         "size": 517
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.96.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.97.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.98.sam",
                         "size": 518
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.99.sam",
                         "size": 519
                     }
@@ -9848,502 +9848,502 @@
                         "size": 14
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.0.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.1.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.2.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.3.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.4.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.5.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.6.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.7.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.8.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.9.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.10.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.11.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.12.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.13.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.14.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.15.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.16.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.17.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.18.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.19.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.20.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.21.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.22.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.23.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.24.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.25.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.26.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.27.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.28.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.29.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.30.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.31.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.32.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.33.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.34.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.35.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.36.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.37.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.38.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.39.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.40.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.41.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.42.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.43.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.44.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.45.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.46.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.47.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.48.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.49.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.50.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.51.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.52.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.53.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.54.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.55.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.56.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.57.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.58.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.59.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.60.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.61.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.62.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.63.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.64.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.65.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.66.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.67.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.68.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.69.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.70.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.71.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.72.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.73.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.74.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.75.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.76.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.77.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.78.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.79.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.80.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.81.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.82.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.83.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.84.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.85.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.86.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.87.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.88.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.89.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.90.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.91.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.92.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.93.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.94.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.95.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.96.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.97.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.98.err",
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "query.fastq.99.err",
                         "size": 1
                     }
