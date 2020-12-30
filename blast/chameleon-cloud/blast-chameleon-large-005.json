@@ -1,7 +1,7 @@
 {
     "name": "makeflow-blast-large",
     "description": "Trace generated with WorkflowHub - https://workflowhub.org",
-    "createdAt": "2020-12-28T02:43:57.762615",
+    "createdAt": "2020-12-30T02:25:22.727220",
     "schemaVersion": "1.0",
     "author": {
         "name": "rafsilva",
@@ -675,14 +675,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.0",
                         "size": 2012
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -733,14 +733,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.1",
                         "size": 2013
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -791,14 +791,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.2",
                         "size": 2013
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -849,14 +849,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.3",
                         "size": 2013
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -907,14 +907,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.4",
                         "size": 2013
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -965,14 +965,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.5",
                         "size": 2013
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1023,14 +1023,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.6",
                         "size": 2013
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1081,14 +1081,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.7",
                         "size": 2013
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1139,14 +1139,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.8",
                         "size": 2013
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1197,14 +1197,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.9",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1255,14 +1255,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.10",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1313,14 +1313,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.11",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1371,14 +1371,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.12",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1429,14 +1429,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.13",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1487,14 +1487,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.14",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1545,14 +1545,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.15",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1603,14 +1603,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.16",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1661,14 +1661,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.17",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1719,14 +1719,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.18",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1777,14 +1777,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.19",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1835,14 +1835,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.20",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1893,14 +1893,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.21",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -1951,14 +1951,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.22",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2009,14 +2009,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.23",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2067,14 +2067,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.24",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2125,14 +2125,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.25",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2183,14 +2183,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.26",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2241,14 +2241,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.27",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2299,14 +2299,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.28",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2357,14 +2357,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.29",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2415,14 +2415,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.30",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2473,14 +2473,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.31",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2531,14 +2531,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.32",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2589,14 +2589,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.33",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2647,14 +2647,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.34",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2705,14 +2705,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.35",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2763,14 +2763,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.36",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2821,14 +2821,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.37",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2879,14 +2879,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.38",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2937,14 +2937,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.39",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -2995,14 +2995,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.40",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3053,14 +3053,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.41",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3111,14 +3111,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.42",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3169,14 +3169,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.43",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3227,14 +3227,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.44",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3285,14 +3285,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.45",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3343,14 +3343,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.46",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3401,14 +3401,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.47",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3459,14 +3459,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.48",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3517,14 +3517,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.49",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3575,14 +3575,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.50",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3633,14 +3633,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.51",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3691,14 +3691,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.52",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3749,14 +3749,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.53",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3807,14 +3807,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.54",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3865,14 +3865,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.55",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3923,14 +3923,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.56",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -3981,14 +3981,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.57",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4039,14 +4039,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.58",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4097,14 +4097,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.59",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4155,14 +4155,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.60",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4213,14 +4213,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.61",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4271,14 +4271,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.62",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4329,14 +4329,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.63",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4387,14 +4387,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.64",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4445,14 +4445,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.65",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4503,14 +4503,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.66",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4561,14 +4561,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.67",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4619,14 +4619,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.68",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4677,14 +4677,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.69",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4735,14 +4735,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.70",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4793,14 +4793,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.71",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4851,14 +4851,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.72",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4909,14 +4909,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.73",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -4967,14 +4967,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.74",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5025,14 +5025,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.75",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5083,14 +5083,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.76",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5141,14 +5141,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.77",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5199,14 +5199,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.78",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5257,14 +5257,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.79",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5315,14 +5315,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.80",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5373,14 +5373,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.81",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5431,14 +5431,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.82",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5489,14 +5489,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.83",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5547,14 +5547,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.84",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5605,14 +5605,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.85",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5663,14 +5663,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.86",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5721,14 +5721,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.87",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5779,14 +5779,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.88",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5837,14 +5837,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.89",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5895,14 +5895,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.90",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -5953,14 +5953,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.91",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -6011,14 +6011,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.92",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -6069,14 +6069,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.93",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -6127,14 +6127,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.94",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -6185,14 +6185,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.95",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -6243,14 +6243,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.96",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -6301,14 +6301,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.97",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -6359,14 +6359,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.98",
                         "size": 2014
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -6417,14 +6417,14 @@
                         "size": 7688
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.99",
                         "size": 2015
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 2151321318
+                        "size": 0
                     }
                 ],
                 "cores": 1,
@@ -6566,502 +6566,502 @@
                         "size": 1
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.0.out",
                         "size": 6758
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.1.out",
                         "size": 6200
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.2.out",
                         "size": 6065
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.3.out",
                         "size": 5690
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.4.out",
                         "size": 6179
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.5.out",
                         "size": 5635
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.6.out",
                         "size": 5558
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.7.out",
                         "size": 5501
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.8.out",
                         "size": 5593
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.9.out",
                         "size": 6404
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.10.out",
                         "size": 5727
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.11.out",
                         "size": 5753
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.12.out",
                         "size": 5956
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.13.out",
                         "size": 5762
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.14.out",
                         "size": 5843
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.15.out",
                         "size": 5996
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.16.out",
                         "size": 6105
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.17.out",
                         "size": 5879
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.18.out",
                         "size": 5266
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.19.out",
                         "size": 5402
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.20.out",
                         "size": 6607
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.21.out",
                         "size": 5732
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.22.out",
                         "size": 5935
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.23.out",
                         "size": 6549
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.24.out",
                         "size": 6049
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.25.out",
                         "size": 5444
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.26.out",
                         "size": 5531
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.27.out",
                         "size": 5336
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.28.out",
                         "size": 5653
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.29.out",
                         "size": 5974
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.30.out",
                         "size": 5757
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.31.out",
                         "size": 6083
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.32.out",
                         "size": 5916
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.33.out",
                         "size": 6179
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.34.out",
                         "size": 6224
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.35.out",
                         "size": 6309
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.36.out",
                         "size": 5382
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.37.out",
                         "size": 6456
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.38.out",
                         "size": 6614
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.39.out",
                         "size": 5887
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.40.out",
                         "size": 6056
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.41.out",
                         "size": 5857
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.42.out",
                         "size": 5900
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.43.out",
                         "size": 6290
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.44.out",
                         "size": 5603
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.45.out",
                         "size": 5841
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.46.out",
                         "size": 5387
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.47.out",
                         "size": 5488
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.48.out",
                         "size": 6615
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.49.out",
                         "size": 6004
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.50.out",
                         "size": 6122
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.51.out",
                         "size": 5583
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.52.out",
                         "size": 6092
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.53.out",
                         "size": 5639
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.54.out",
                         "size": 5340
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.55.out",
                         "size": 5960
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.56.out",
                         "size": 6049
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.57.out",
                         "size": 6172
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.58.out",
                         "size": 5426
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.59.out",
                         "size": 5644
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.60.out",
                         "size": 5768
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.61.out",
                         "size": 5956
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.62.out",
                         "size": 5925
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.63.out",
                         "size": 6020
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.64.out",
                         "size": 6172
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.65.out",
                         "size": 5506
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.66.out",
                         "size": 6073
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.67.out",
                         "size": 5367
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.68.out",
                         "size": 5732
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.69.out",
                         "size": 5209
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.70.out",
                         "size": 6645
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.71.out",
                         "size": 6009
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.72.out",
                         "size": 5580
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.73.out",
                         "size": 6021
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.74.out",
                         "size": 5734
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.75.out",
                         "size": 6044
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.76.out",
                         "size": 6316
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.77.out",
                         "size": 6320
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.78.out",
                         "size": 5742
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.79.out",
                         "size": 6303
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.80.out",
                         "size": 5623
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.81.out",
                         "size": 5595
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.82.out",
                         "size": 5829
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.83.out",
                         "size": 6320
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.84.out",
                         "size": 5076
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.85.out",
                         "size": 5629
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.86.out",
                         "size": 5752
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.87.out",
                         "size": 5955
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.88.out",
                         "size": 6301
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.89.out",
                         "size": 5951
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.90.out",
                         "size": 6126
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.91.out",
                         "size": 5396
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.92.out",
                         "size": 5813
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.93.out",
                         "size": 5910
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.94.out",
                         "size": 6099
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.95.out",
                         "size": 6360
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.96.out",
                         "size": 5800
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.97.out",
                         "size": 6147
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.98.out",
                         "size": 5596
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.99.out",
                         "size": 5776
                     }
@@ -7291,502 +7291,502 @@
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.0.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.1.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.2.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.3.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.4.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.5.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.6.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.7.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.8.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.9.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.10.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.11.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.12.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.13.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.14.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.15.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.16.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.17.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.18.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.19.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.20.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.21.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.22.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.23.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.24.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.25.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.26.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.27.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.28.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.29.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.30.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.31.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.32.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.33.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.34.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.35.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.36.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.37.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.38.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.39.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.40.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.41.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.42.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.43.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.44.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.45.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.46.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.47.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.48.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.49.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.50.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.51.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.52.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.53.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.54.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.55.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.56.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.57.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.58.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.59.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.60.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.61.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.62.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.63.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.64.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.65.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.66.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.67.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.68.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.69.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.70.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.71.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.72.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.73.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.74.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.75.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.76.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.77.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.78.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.79.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.80.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.81.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.82.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.83.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.84.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.85.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.86.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.87.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.88.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.89.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.90.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.91.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.92.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.93.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.94.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.95.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.96.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.97.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.98.err",
                         "size": 0
                     },
                     {
-                        "link": "output",
+                        "link": "input",
                         "name": "large.fasta.99.err",
                         "size": 0
                     }
