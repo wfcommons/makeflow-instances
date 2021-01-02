@@ -31,4 +31,4 @@ implements the
 | Application | Science Domain | Category | Computing Platforms | # Execution Traces |
 | --- | --- | --- | --- | --- |
 | BLAST | Bioinformatics | Compute-intensive | 1 | 15 |
-| BWA | Bioinformatics | Data-intensive | 1 | 14 |
+| BWA | Bioinformatics | Data-intensive | 1 | 15 |
