@@ -1,6 +1,6 @@
-![Build](https://github.com/workflowhub/makeflow-traces/workflows/Build/badge.svg)
+![Build](https://github.com/wfcommons/makeflow-traces/workflows/Build/badge.svg)
 
-<a href="https://workflowhub.org" target="_blank"><img src="https://workflowhub.org/assets/images/logo-horizontal.png" width="300" /></a>
+<a href="https://wfcommons.org" target="_blank"><img src="https://wfcommons.org/images/wfcommons-horizontal.png" width="350" /></a>
 
 <img src="http://ccl.cse.nd.edu/software/makeflow/MakeflowLogoSmall.png" width=160 />
 
@@ -9,7 +9,7 @@
 This repository contains workflow execution traces generated from
 [Makeflow](http://ccl.cse.nd.edu/software/makeflow/) workflow
 executions. The traces hosted in this repository use the
-[WorkflowHub JSON format](https://github.com/workflowhub/workflow-schema)
+[WfCommons JSON format](https://github.com/wfcommons/workflow-schema)
 for describing workflow executions.
 
 #### Repository Structure
@@ -22,9 +22,9 @@ _computing platforms_.
 #### Workflow Simulator
 
 The execution traces provided in this repository are compatible to any
-[simulator framework](https://workflowhub.org/simulator.html) that
+[simulator framework](https://wfcommons.org/simulators) that
 implements the
-[WorkflowHub JSON format](https://github.com/workflowhub/workflow-schema).
+[WfCommons JSON format](https://github.com/wfcommons/workflow-schema).
 
 ## Summary of Workflow Execution Traces
 

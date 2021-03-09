@@ -1,4 +1,4 @@
-<a href="https://workflowhub.org" target="_blank"><img src="https://workflowhub.org/assets/images/logo-horizontal.png" width="300" /></a>
+<a href="https://wfcommons.org" target="_blank"><img src="https://wfcommons.org/images/wfcommons-horizontal.png" width="350" /></a>
 
 <img src="http://ccl.cse.nd.edu/software/makeflow/MakeflowLogoSmall.png" width=160 />
 
@@ -26,7 +26,7 @@ The figure below shows an overview of the BLAST workflow structure:
 ## Execution Traces
 
 Execution traces are formatted according to the
-[WorkflowHub JSON format](https://github.com/workflowhub/workflow-schema) for
+[WfCommons JSON format](https://github.com/wfcommons/workflow-schema) for
 describing workflow executions. Execution traces from different computing
 platforms are organized into sub-folders.
 
