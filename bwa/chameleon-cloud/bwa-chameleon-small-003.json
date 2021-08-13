@@ -2,7 +2,7 @@
     "name": "makeflow-bwa-small",
     "description": "Trace generated with WorkflowHub - https://workflowhub.org",
     "createdAt": "2020-12-30T02:19:01.527748",
-    "schemaVersion": "1.0",
+    "schemaVersion": "1.2",
     "author": {
         "name": "rafsilva",
         "email": "support@workflowhub.org"
@@ -640,12 +640,17 @@
                 "bytesRead": 2340,
                 "bytesWritten": 2343,
                 "memory": 3000,
-                "arguments": [
-                    "fastq_reduce",
-                    "query.fastq",
-                    "100"
-                ],
-                "machine": "worker-1.novalocal"
+                "machine": "worker-1.novalocal",
+                "id": "ID000001",
+                "category": "fastq_reduce",
+                "command": {
+                    "program": "fastq_reduce",
+                    "arguments": [
+                        "fastq_reduce",
+                        "query.fastq",
+                        "100"
+                    ]
+                }
             },
             {
                 "name": "bwa_index_ID000002",
@@ -796,12 +801,17 @@
                 "bytesRead": 1147113,
                 "bytesWritten": 526773,
                 "memory": 147000,
-                "arguments": [
-                    "./bwa",
-                    "index",
-                    "ref.fastq"
-                ],
-                "machine": "worker-1.novalocal"
+                "machine": "worker-1.novalocal",
+                "id": "ID000002",
+                "category": "bwa_index",
+                "command": {
+                    "program": "bwa_index",
+                    "arguments": [
+                        "./bwa",
+                        "index",
+                        "ref.fastq"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000003",
@@ -872,19 +882,24 @@
                 "bytesRead": 167477,
                 "bytesWritten": 500,
                 "memory": 3000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.0",
-                    ">",
-                    "query.fastq.0.sam",
-                    "2>",
-                    "query.fastq.0.err"
-                ],
-                "machine": "worker-4.novalocal"
+                "machine": "worker-4.novalocal",
+                "id": "ID000003",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.0",
+                        ">",
+                        "query.fastq.0.sam",
+                        "2>",
+                        "query.fastq.0.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000004",
@@ -955,19 +970,24 @@
                 "bytesRead": 167477,
                 "bytesWritten": 500,
                 "memory": 3000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.1",
-                    ">",
-                    "query.fastq.1.sam",
-                    "2>",
-                    "query.fastq.1.err"
-                ],
-                "machine": "worker-4.novalocal"
+                "machine": "worker-4.novalocal",
+                "id": "ID000004",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.1",
+                        ">",
+                        "query.fastq.1.sam",
+                        "2>",
+                        "query.fastq.1.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000005",
@@ -1038,19 +1058,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.2",
-                    ">",
-                    "query.fastq.2.sam",
-                    "2>",
-                    "query.fastq.2.err"
-                ],
-                "machine": "worker-4.novalocal"
+                "machine": "worker-4.novalocal",
+                "id": "ID000005",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.2",
+                        ">",
+                        "query.fastq.2.sam",
+                        "2>",
+                        "query.fastq.2.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000006",
@@ -1121,19 +1146,24 @@
                 "bytesRead": 334945,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.3",
-                    ">",
-                    "query.fastq.3.sam",
-                    "2>",
-                    "query.fastq.3.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000006",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.3",
+                        ">",
+                        "query.fastq.3.sam",
+                        "2>",
+                        "query.fastq.3.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000007",
@@ -1204,19 +1234,24 @@
                 "bytesRead": 334950,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.4",
-                    ">",
-                    "query.fastq.4.sam",
-                    "2>",
-                    "query.fastq.4.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000007",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.4",
+                        ">",
+                        "query.fastq.4.sam",
+                        "2>",
+                        "query.fastq.4.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000008",
@@ -1287,19 +1322,24 @@
                 "bytesRead": 334948,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.5",
-                    ">",
-                    "query.fastq.5.sam",
-                    "2>",
-                    "query.fastq.5.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000008",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.5",
+                        ">",
+                        "query.fastq.5.sam",
+                        "2>",
+                        "query.fastq.5.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000009",
@@ -1370,19 +1410,24 @@
                 "bytesRead": 334949,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.6",
-                    ">",
-                    "query.fastq.6.sam",
-                    "2>",
-                    "query.fastq.6.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000009",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.6",
+                        ">",
+                        "query.fastq.6.sam",
+                        "2>",
+                        "query.fastq.6.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000010",
@@ -1453,19 +1498,24 @@
                 "bytesRead": 334945,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.7",
-                    ">",
-                    "query.fastq.7.sam",
-                    "2>",
-                    "query.fastq.7.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000010",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.7",
+                        ">",
+                        "query.fastq.7.sam",
+                        "2>",
+                        "query.fastq.7.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000011",
@@ -1536,19 +1586,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.8",
-                    ">",
-                    "query.fastq.8.sam",
-                    "2>",
-                    "query.fastq.8.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000011",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.8",
+                        ">",
+                        "query.fastq.8.sam",
+                        "2>",
+                        "query.fastq.8.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000012",
@@ -1619,19 +1674,24 @@
                 "bytesRead": 334940,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.9",
-                    ">",
-                    "query.fastq.9.sam",
-                    "2>",
-                    "query.fastq.9.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000012",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.9",
+                        ">",
+                        "query.fastq.9.sam",
+                        "2>",
+                        "query.fastq.9.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000013",
@@ -1702,19 +1762,24 @@
                 "bytesRead": 334953,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.10",
-                    ">",
-                    "query.fastq.10.sam",
-                    "2>",
-                    "query.fastq.10.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000013",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.10",
+                        ">",
+                        "query.fastq.10.sam",
+                        "2>",
+                        "query.fastq.10.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000014",
@@ -1785,19 +1850,24 @@
                 "bytesRead": 334945,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.11",
-                    ">",
-                    "query.fastq.11.sam",
-                    "2>",
-                    "query.fastq.11.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000014",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.11",
+                        ">",
+                        "query.fastq.11.sam",
+                        "2>",
+                        "query.fastq.11.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000015",
@@ -1868,19 +1938,24 @@
                 "bytesRead": 334944,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.12",
-                    ">",
-                    "query.fastq.12.sam",
-                    "2>",
-                    "query.fastq.12.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000015",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.12",
+                        ">",
+                        "query.fastq.12.sam",
+                        "2>",
+                        "query.fastq.12.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000016",
@@ -1951,19 +2026,24 @@
                 "bytesRead": 334946,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.13",
-                    ">",
-                    "query.fastq.13.sam",
-                    "2>",
-                    "query.fastq.13.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000016",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.13",
+                        ">",
+                        "query.fastq.13.sam",
+                        "2>",
+                        "query.fastq.13.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000017",
@@ -2034,19 +2114,24 @@
                 "bytesRead": 334950,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.14",
-                    ">",
-                    "query.fastq.14.sam",
-                    "2>",
-                    "query.fastq.14.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000017",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.14",
+                        ">",
+                        "query.fastq.14.sam",
+                        "2>",
+                        "query.fastq.14.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000018",
@@ -2117,19 +2202,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.15",
-                    ">",
-                    "query.fastq.15.sam",
-                    "2>",
-                    "query.fastq.15.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000018",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.15",
+                        ">",
+                        "query.fastq.15.sam",
+                        "2>",
+                        "query.fastq.15.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000019",
@@ -2200,19 +2290,24 @@
                 "bytesRead": 334953,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.16",
-                    ">",
-                    "query.fastq.16.sam",
-                    "2>",
-                    "query.fastq.16.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000019",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.16",
+                        ">",
+                        "query.fastq.16.sam",
+                        "2>",
+                        "query.fastq.16.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000020",
@@ -2283,19 +2378,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.17",
-                    ">",
-                    "query.fastq.17.sam",
-                    "2>",
-                    "query.fastq.17.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000020",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.17",
+                        ">",
+                        "query.fastq.17.sam",
+                        "2>",
+                        "query.fastq.17.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000021",
@@ -2366,19 +2466,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.18",
-                    ">",
-                    "query.fastq.18.sam",
-                    "2>",
-                    "query.fastq.18.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000021",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.18",
+                        ">",
+                        "query.fastq.18.sam",
+                        "2>",
+                        "query.fastq.18.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000022",
@@ -2449,19 +2554,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.19",
-                    ">",
-                    "query.fastq.19.sam",
-                    "2>",
-                    "query.fastq.19.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000022",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.19",
+                        ">",
+                        "query.fastq.19.sam",
+                        "2>",
+                        "query.fastq.19.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000023",
@@ -2532,19 +2642,24 @@
                 "bytesRead": 334947,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.20",
-                    ">",
-                    "query.fastq.20.sam",
-                    "2>",
-                    "query.fastq.20.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000023",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.20",
+                        ">",
+                        "query.fastq.20.sam",
+                        "2>",
+                        "query.fastq.20.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000024",
@@ -2615,19 +2730,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.21",
-                    ">",
-                    "query.fastq.21.sam",
-                    "2>",
-                    "query.fastq.21.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000024",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.21",
+                        ">",
+                        "query.fastq.21.sam",
+                        "2>",
+                        "query.fastq.21.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000025",
@@ -2698,19 +2818,24 @@
                 "bytesRead": 334947,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.22",
-                    ">",
-                    "query.fastq.22.sam",
-                    "2>",
-                    "query.fastq.22.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000025",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.22",
+                        ">",
+                        "query.fastq.22.sam",
+                        "2>",
+                        "query.fastq.22.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000026",
@@ -2781,19 +2906,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.23",
-                    ">",
-                    "query.fastq.23.sam",
-                    "2>",
-                    "query.fastq.23.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000026",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.23",
+                        ">",
+                        "query.fastq.23.sam",
+                        "2>",
+                        "query.fastq.23.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000027",
@@ -2864,19 +2994,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.24",
-                    ">",
-                    "query.fastq.24.sam",
-                    "2>",
-                    "query.fastq.24.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000027",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.24",
+                        ">",
+                        "query.fastq.24.sam",
+                        "2>",
+                        "query.fastq.24.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000028",
@@ -2947,19 +3082,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.25",
-                    ">",
-                    "query.fastq.25.sam",
-                    "2>",
-                    "query.fastq.25.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000028",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.25",
+                        ">",
+                        "query.fastq.25.sam",
+                        "2>",
+                        "query.fastq.25.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000029",
@@ -3030,19 +3170,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.26",
-                    ">",
-                    "query.fastq.26.sam",
-                    "2>",
-                    "query.fastq.26.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000029",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.26",
+                        ">",
+                        "query.fastq.26.sam",
+                        "2>",
+                        "query.fastq.26.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000030",
@@ -3113,19 +3258,24 @@
                 "bytesRead": 334944,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.27",
-                    ">",
-                    "query.fastq.27.sam",
-                    "2>",
-                    "query.fastq.27.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000030",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.27",
+                        ">",
+                        "query.fastq.27.sam",
+                        "2>",
+                        "query.fastq.27.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000031",
@@ -3196,19 +3346,24 @@
                 "bytesRead": 334945,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.28",
-                    ">",
-                    "query.fastq.28.sam",
-                    "2>",
-                    "query.fastq.28.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000031",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.28",
+                        ">",
+                        "query.fastq.28.sam",
+                        "2>",
+                        "query.fastq.28.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000032",
@@ -3279,19 +3434,24 @@
                 "bytesRead": 334946,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.29",
-                    ">",
-                    "query.fastq.29.sam",
-                    "2>",
-                    "query.fastq.29.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000032",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.29",
+                        ">",
+                        "query.fastq.29.sam",
+                        "2>",
+                        "query.fastq.29.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000033",
@@ -3362,19 +3522,24 @@
                 "bytesRead": 334953,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.30",
-                    ">",
-                    "query.fastq.30.sam",
-                    "2>",
-                    "query.fastq.30.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000033",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.30",
+                        ">",
+                        "query.fastq.30.sam",
+                        "2>",
+                        "query.fastq.30.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000034",
@@ -3445,19 +3610,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.31",
-                    ">",
-                    "query.fastq.31.sam",
-                    "2>",
-                    "query.fastq.31.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000034",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.31",
+                        ">",
+                        "query.fastq.31.sam",
+                        "2>",
+                        "query.fastq.31.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000035",
@@ -3528,19 +3698,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.32",
-                    ">",
-                    "query.fastq.32.sam",
-                    "2>",
-                    "query.fastq.32.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000035",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.32",
+                        ">",
+                        "query.fastq.32.sam",
+                        "2>",
+                        "query.fastq.32.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000036",
@@ -3611,19 +3786,24 @@
                 "bytesRead": 334950,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.33",
-                    ">",
-                    "query.fastq.33.sam",
-                    "2>",
-                    "query.fastq.33.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000036",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.33",
+                        ">",
+                        "query.fastq.33.sam",
+                        "2>",
+                        "query.fastq.33.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000037",
@@ -3694,19 +3874,24 @@
                 "bytesRead": 334945,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.34",
-                    ">",
-                    "query.fastq.34.sam",
-                    "2>",
-                    "query.fastq.34.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000037",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.34",
+                        ">",
+                        "query.fastq.34.sam",
+                        "2>",
+                        "query.fastq.34.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000038",
@@ -3777,19 +3962,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.35",
-                    ">",
-                    "query.fastq.35.sam",
-                    "2>",
-                    "query.fastq.35.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000038",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.35",
+                        ">",
+                        "query.fastq.35.sam",
+                        "2>",
+                        "query.fastq.35.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000039",
@@ -3860,19 +4050,24 @@
                 "bytesRead": 334949,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.36",
-                    ">",
-                    "query.fastq.36.sam",
-                    "2>",
-                    "query.fastq.36.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000039",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.36",
+                        ">",
+                        "query.fastq.36.sam",
+                        "2>",
+                        "query.fastq.36.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000040",
@@ -3943,19 +4138,24 @@
                 "bytesRead": 334950,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.37",
-                    ">",
-                    "query.fastq.37.sam",
-                    "2>",
-                    "query.fastq.37.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000040",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.37",
+                        ">",
+                        "query.fastq.37.sam",
+                        "2>",
+                        "query.fastq.37.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000041",
@@ -4026,19 +4226,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.38",
-                    ">",
-                    "query.fastq.38.sam",
-                    "2>",
-                    "query.fastq.38.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000041",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.38",
+                        ">",
+                        "query.fastq.38.sam",
+                        "2>",
+                        "query.fastq.38.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000042",
@@ -4109,19 +4314,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.39",
-                    ">",
-                    "query.fastq.39.sam",
-                    "2>",
-                    "query.fastq.39.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000042",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.39",
+                        ">",
+                        "query.fastq.39.sam",
+                        "2>",
+                        "query.fastq.39.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000043",
@@ -4192,19 +4402,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.40",
-                    ">",
-                    "query.fastq.40.sam",
-                    "2>",
-                    "query.fastq.40.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000043",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.40",
+                        ">",
+                        "query.fastq.40.sam",
+                        "2>",
+                        "query.fastq.40.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000044",
@@ -4275,19 +4490,24 @@
                 "bytesRead": 334947,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.41",
-                    ">",
-                    "query.fastq.41.sam",
-                    "2>",
-                    "query.fastq.41.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000044",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.41",
+                        ">",
+                        "query.fastq.41.sam",
+                        "2>",
+                        "query.fastq.41.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000045",
@@ -4358,19 +4578,24 @@
                 "bytesRead": 334947,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.42",
-                    ">",
-                    "query.fastq.42.sam",
-                    "2>",
-                    "query.fastq.42.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000045",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.42",
+                        ">",
+                        "query.fastq.42.sam",
+                        "2>",
+                        "query.fastq.42.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000046",
@@ -4441,19 +4666,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.43",
-                    ">",
-                    "query.fastq.43.sam",
-                    "2>",
-                    "query.fastq.43.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000046",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.43",
+                        ">",
+                        "query.fastq.43.sam",
+                        "2>",
+                        "query.fastq.43.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000047",
@@ -4524,19 +4754,24 @@
                 "bytesRead": 167478,
                 "bytesWritten": 500,
                 "memory": 3000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.44",
-                    ">",
-                    "query.fastq.44.sam",
-                    "2>",
-                    "query.fastq.44.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000047",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.44",
+                        ">",
+                        "query.fastq.44.sam",
+                        "2>",
+                        "query.fastq.44.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000048",
@@ -4607,19 +4842,24 @@
                 "bytesRead": 334948,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.45",
-                    ">",
-                    "query.fastq.45.sam",
-                    "2>",
-                    "query.fastq.45.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000048",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.45",
+                        ">",
+                        "query.fastq.45.sam",
+                        "2>",
+                        "query.fastq.45.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000049",
@@ -4690,19 +4930,24 @@
                 "bytesRead": 334950,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.46",
-                    ">",
-                    "query.fastq.46.sam",
-                    "2>",
-                    "query.fastq.46.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000049",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.46",
+                        ">",
+                        "query.fastq.46.sam",
+                        "2>",
+                        "query.fastq.46.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000050",
@@ -4773,19 +5018,24 @@
                 "bytesRead": 334947,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.47",
-                    ">",
-                    "query.fastq.47.sam",
-                    "2>",
-                    "query.fastq.47.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000050",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.47",
+                        ">",
+                        "query.fastq.47.sam",
+                        "2>",
+                        "query.fastq.47.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000051",
@@ -4856,19 +5106,24 @@
                 "bytesRead": 334950,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.48",
-                    ">",
-                    "query.fastq.48.sam",
-                    "2>",
-                    "query.fastq.48.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000051",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.48",
+                        ">",
+                        "query.fastq.48.sam",
+                        "2>",
+                        "query.fastq.48.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000052",
@@ -4939,19 +5194,24 @@
                 "bytesRead": 167478,
                 "bytesWritten": 500,
                 "memory": 3000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.49",
-                    ">",
-                    "query.fastq.49.sam",
-                    "2>",
-                    "query.fastq.49.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000052",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.49",
+                        ">",
+                        "query.fastq.49.sam",
+                        "2>",
+                        "query.fastq.49.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000053",
@@ -5022,19 +5282,24 @@
                 "bytesRead": 334947,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.50",
-                    ">",
-                    "query.fastq.50.sam",
-                    "2>",
-                    "query.fastq.50.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000053",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.50",
+                        ">",
+                        "query.fastq.50.sam",
+                        "2>",
+                        "query.fastq.50.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000054",
@@ -5105,19 +5370,24 @@
                 "bytesRead": 334946,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.51",
-                    ">",
-                    "query.fastq.51.sam",
-                    "2>",
-                    "query.fastq.51.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000054",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.51",
+                        ">",
+                        "query.fastq.51.sam",
+                        "2>",
+                        "query.fastq.51.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000055",
@@ -5188,19 +5458,24 @@
                 "bytesRead": 334949,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.52",
-                    ">",
-                    "query.fastq.52.sam",
-                    "2>",
-                    "query.fastq.52.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000055",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.52",
+                        ">",
+                        "query.fastq.52.sam",
+                        "2>",
+                        "query.fastq.52.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000056",
@@ -5271,19 +5546,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.53",
-                    ">",
-                    "query.fastq.53.sam",
-                    "2>",
-                    "query.fastq.53.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000056",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.53",
+                        ">",
+                        "query.fastq.53.sam",
+                        "2>",
+                        "query.fastq.53.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000057",
@@ -5354,19 +5634,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.54",
-                    ">",
-                    "query.fastq.54.sam",
-                    "2>",
-                    "query.fastq.54.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000057",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.54",
+                        ">",
+                        "query.fastq.54.sam",
+                        "2>",
+                        "query.fastq.54.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000058",
@@ -5437,19 +5722,24 @@
                 "bytesRead": 334948,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.55",
-                    ">",
-                    "query.fastq.55.sam",
-                    "2>",
-                    "query.fastq.55.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000058",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.55",
+                        ">",
+                        "query.fastq.55.sam",
+                        "2>",
+                        "query.fastq.55.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000059",
@@ -5520,19 +5810,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.56",
-                    ">",
-                    "query.fastq.56.sam",
-                    "2>",
-                    "query.fastq.56.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000059",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.56",
+                        ">",
+                        "query.fastq.56.sam",
+                        "2>",
+                        "query.fastq.56.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000060",
@@ -5603,19 +5898,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.57",
-                    ">",
-                    "query.fastq.57.sam",
-                    "2>",
-                    "query.fastq.57.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000060",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.57",
+                        ">",
+                        "query.fastq.57.sam",
+                        "2>",
+                        "query.fastq.57.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000061",
@@ -5686,19 +5986,24 @@
                 "bytesRead": 334948,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.58",
-                    ">",
-                    "query.fastq.58.sam",
-                    "2>",
-                    "query.fastq.58.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000061",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.58",
+                        ">",
+                        "query.fastq.58.sam",
+                        "2>",
+                        "query.fastq.58.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000062",
@@ -5769,19 +6074,24 @@
                 "bytesRead": 334941,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.59",
-                    ">",
-                    "query.fastq.59.sam",
-                    "2>",
-                    "query.fastq.59.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000062",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.59",
+                        ">",
+                        "query.fastq.59.sam",
+                        "2>",
+                        "query.fastq.59.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000063",
@@ -5852,19 +6162,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.60",
-                    ">",
-                    "query.fastq.60.sam",
-                    "2>",
-                    "query.fastq.60.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000063",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.60",
+                        ">",
+                        "query.fastq.60.sam",
+                        "2>",
+                        "query.fastq.60.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000064",
@@ -5935,19 +6250,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.61",
-                    ">",
-                    "query.fastq.61.sam",
-                    "2>",
-                    "query.fastq.61.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000064",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.61",
+                        ">",
+                        "query.fastq.61.sam",
+                        "2>",
+                        "query.fastq.61.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000065",
@@ -6018,19 +6338,24 @@
                 "bytesRead": 334947,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.62",
-                    ">",
-                    "query.fastq.62.sam",
-                    "2>",
-                    "query.fastq.62.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000065",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.62",
+                        ">",
+                        "query.fastq.62.sam",
+                        "2>",
+                        "query.fastq.62.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000066",
@@ -6101,19 +6426,24 @@
                 "bytesRead": 167478,
                 "bytesWritten": 500,
                 "memory": 3000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.63",
-                    ">",
-                    "query.fastq.63.sam",
-                    "2>",
-                    "query.fastq.63.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000066",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.63",
+                        ">",
+                        "query.fastq.63.sam",
+                        "2>",
+                        "query.fastq.63.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000067",
@@ -6184,19 +6514,24 @@
                 "bytesRead": 167478,
                 "bytesWritten": 496,
                 "memory": 3000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.64",
-                    ">",
-                    "query.fastq.64.sam",
-                    "2>",
-                    "query.fastq.64.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000067",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.64",
+                        ">",
+                        "query.fastq.64.sam",
+                        "2>",
+                        "query.fastq.64.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000068",
@@ -6267,19 +6602,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.65",
-                    ">",
-                    "query.fastq.65.sam",
-                    "2>",
-                    "query.fastq.65.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000068",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.65",
+                        ">",
+                        "query.fastq.65.sam",
+                        "2>",
+                        "query.fastq.65.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000069",
@@ -6350,19 +6690,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.66",
-                    ">",
-                    "query.fastq.66.sam",
-                    "2>",
-                    "query.fastq.66.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000069",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.66",
+                        ">",
+                        "query.fastq.66.sam",
+                        "2>",
+                        "query.fastq.66.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000070",
@@ -6433,19 +6778,24 @@
                 "bytesRead": 334946,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.67",
-                    ">",
-                    "query.fastq.67.sam",
-                    "2>",
-                    "query.fastq.67.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000070",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.67",
+                        ">",
+                        "query.fastq.67.sam",
+                        "2>",
+                        "query.fastq.67.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000071",
@@ -6516,19 +6866,24 @@
                 "bytesRead": 334950,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.68",
-                    ">",
-                    "query.fastq.68.sam",
-                    "2>",
-                    "query.fastq.68.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000071",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.68",
+                        ">",
+                        "query.fastq.68.sam",
+                        "2>",
+                        "query.fastq.68.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000072",
@@ -6599,19 +6954,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.69",
-                    ">",
-                    "query.fastq.69.sam",
-                    "2>",
-                    "query.fastq.69.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000072",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.69",
+                        ">",
+                        "query.fastq.69.sam",
+                        "2>",
+                        "query.fastq.69.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000073",
@@ -6682,19 +7042,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.70",
-                    ">",
-                    "query.fastq.70.sam",
-                    "2>",
-                    "query.fastq.70.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000073",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.70",
+                        ">",
+                        "query.fastq.70.sam",
+                        "2>",
+                        "query.fastq.70.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000074",
@@ -6765,19 +7130,24 @@
                 "bytesRead": 334947,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.71",
-                    ">",
-                    "query.fastq.71.sam",
-                    "2>",
-                    "query.fastq.71.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000074",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.71",
+                        ">",
+                        "query.fastq.71.sam",
+                        "2>",
+                        "query.fastq.71.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000075",
@@ -6848,19 +7218,24 @@
                 "bytesRead": 334949,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.72",
-                    ">",
-                    "query.fastq.72.sam",
-                    "2>",
-                    "query.fastq.72.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000075",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.72",
+                        ">",
+                        "query.fastq.72.sam",
+                        "2>",
+                        "query.fastq.72.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000076",
@@ -6931,19 +7306,24 @@
                 "bytesRead": 334950,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.73",
-                    ">",
-                    "query.fastq.73.sam",
-                    "2>",
-                    "query.fastq.73.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000076",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.73",
+                        ">",
+                        "query.fastq.73.sam",
+                        "2>",
+                        "query.fastq.73.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000077",
@@ -7014,19 +7394,24 @@
                 "bytesRead": 334947,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.74",
-                    ">",
-                    "query.fastq.74.sam",
-                    "2>",
-                    "query.fastq.74.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000077",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.74",
+                        ">",
+                        "query.fastq.74.sam",
+                        "2>",
+                        "query.fastq.74.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000078",
@@ -7097,19 +7482,24 @@
                 "bytesRead": 334945,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.75",
-                    ">",
-                    "query.fastq.75.sam",
-                    "2>",
-                    "query.fastq.75.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000078",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.75",
+                        ">",
+                        "query.fastq.75.sam",
+                        "2>",
+                        "query.fastq.75.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000079",
@@ -7180,19 +7570,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.76",
-                    ">",
-                    "query.fastq.76.sam",
-                    "2>",
-                    "query.fastq.76.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000079",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.76",
+                        ">",
+                        "query.fastq.76.sam",
+                        "2>",
+                        "query.fastq.76.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000080",
@@ -7263,19 +7658,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.77",
-                    ">",
-                    "query.fastq.77.sam",
-                    "2>",
-                    "query.fastq.77.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000080",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.77",
+                        ">",
+                        "query.fastq.77.sam",
+                        "2>",
+                        "query.fastq.77.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000081",
@@ -7346,19 +7746,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.78",
-                    ">",
-                    "query.fastq.78.sam",
-                    "2>",
-                    "query.fastq.78.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000081",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.78",
+                        ">",
+                        "query.fastq.78.sam",
+                        "2>",
+                        "query.fastq.78.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000082",
@@ -7429,19 +7834,24 @@
                 "bytesRead": 334945,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.79",
-                    ">",
-                    "query.fastq.79.sam",
-                    "2>",
-                    "query.fastq.79.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000082",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.79",
+                        ">",
+                        "query.fastq.79.sam",
+                        "2>",
+                        "query.fastq.79.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000083",
@@ -7512,19 +7922,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.80",
-                    ">",
-                    "query.fastq.80.sam",
-                    "2>",
-                    "query.fastq.80.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000083",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.80",
+                        ">",
+                        "query.fastq.80.sam",
+                        "2>",
+                        "query.fastq.80.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000084",
@@ -7595,19 +8010,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.81",
-                    ">",
-                    "query.fastq.81.sam",
-                    "2>",
-                    "query.fastq.81.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000084",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.81",
+                        ">",
+                        "query.fastq.81.sam",
+                        "2>",
+                        "query.fastq.81.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000085",
@@ -7678,19 +8098,24 @@
                 "bytesRead": 334950,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.82",
-                    ">",
-                    "query.fastq.82.sam",
-                    "2>",
-                    "query.fastq.82.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000085",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.82",
+                        ">",
+                        "query.fastq.82.sam",
+                        "2>",
+                        "query.fastq.82.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000086",
@@ -7761,19 +8186,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.83",
-                    ">",
-                    "query.fastq.83.sam",
-                    "2>",
-                    "query.fastq.83.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000086",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.83",
+                        ">",
+                        "query.fastq.83.sam",
+                        "2>",
+                        "query.fastq.83.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000087",
@@ -7844,19 +8274,24 @@
                 "bytesRead": 334953,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.84",
-                    ">",
-                    "query.fastq.84.sam",
-                    "2>",
-                    "query.fastq.84.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000087",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.84",
+                        ">",
+                        "query.fastq.84.sam",
+                        "2>",
+                        "query.fastq.84.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000088",
@@ -7927,19 +8362,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.85",
-                    ">",
-                    "query.fastq.85.sam",
-                    "2>",
-                    "query.fastq.85.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000088",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.85",
+                        ">",
+                        "query.fastq.85.sam",
+                        "2>",
+                        "query.fastq.85.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000089",
@@ -8010,19 +8450,24 @@
                 "bytesRead": 334944,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.86",
-                    ">",
-                    "query.fastq.86.sam",
-                    "2>",
-                    "query.fastq.86.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000089",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.86",
+                        ">",
+                        "query.fastq.86.sam",
+                        "2>",
+                        "query.fastq.86.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000090",
@@ -8093,19 +8538,24 @@
                 "bytesRead": 334953,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.87",
-                    ">",
-                    "query.fastq.87.sam",
-                    "2>",
-                    "query.fastq.87.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000090",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.87",
+                        ">",
+                        "query.fastq.87.sam",
+                        "2>",
+                        "query.fastq.87.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000091",
@@ -8176,19 +8626,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.88",
-                    ">",
-                    "query.fastq.88.sam",
-                    "2>",
-                    "query.fastq.88.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000091",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.88",
+                        ">",
+                        "query.fastq.88.sam",
+                        "2>",
+                        "query.fastq.88.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000092",
@@ -8259,19 +8714,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.89",
-                    ">",
-                    "query.fastq.89.sam",
-                    "2>",
-                    "query.fastq.89.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000092",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.89",
+                        ">",
+                        "query.fastq.89.sam",
+                        "2>",
+                        "query.fastq.89.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000093",
@@ -8342,19 +8802,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.90",
-                    ">",
-                    "query.fastq.90.sam",
-                    "2>",
-                    "query.fastq.90.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000093",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.90",
+                        ">",
+                        "query.fastq.90.sam",
+                        "2>",
+                        "query.fastq.90.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000094",
@@ -8425,19 +8890,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.91",
-                    ">",
-                    "query.fastq.91.sam",
-                    "2>",
-                    "query.fastq.91.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000094",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.91",
+                        ">",
+                        "query.fastq.91.sam",
+                        "2>",
+                        "query.fastq.91.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000095",
@@ -8508,19 +8978,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.92",
-                    ">",
-                    "query.fastq.92.sam",
-                    "2>",
-                    "query.fastq.92.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000095",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.92",
+                        ">",
+                        "query.fastq.92.sam",
+                        "2>",
+                        "query.fastq.92.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000096",
@@ -8591,19 +9066,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.93",
-                    ">",
-                    "query.fastq.93.sam",
-                    "2>",
-                    "query.fastq.93.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000096",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.93",
+                        ">",
+                        "query.fastq.93.sam",
+                        "2>",
+                        "query.fastq.93.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000097",
@@ -8674,19 +9154,24 @@
                 "bytesRead": 334945,
                 "bytesWritten": 992,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.94",
-                    ">",
-                    "query.fastq.94.sam",
-                    "2>",
-                    "query.fastq.94.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000097",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.94",
+                        ">",
+                        "query.fastq.94.sam",
+                        "2>",
+                        "query.fastq.94.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000098",
@@ -8757,19 +9242,24 @@
                 "bytesRead": 334952,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.95",
-                    ">",
-                    "query.fastq.95.sam",
-                    "2>",
-                    "query.fastq.95.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000098",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.95",
+                        ">",
+                        "query.fastq.95.sam",
+                        "2>",
+                        "query.fastq.95.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000099",
@@ -8840,19 +9330,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.96",
-                    ">",
-                    "query.fastq.96.sam",
-                    "2>",
-                    "query.fastq.96.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000099",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.96",
+                        ">",
+                        "query.fastq.96.sam",
+                        "2>",
+                        "query.fastq.96.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000100",
@@ -8923,19 +9418,24 @@
                 "bytesRead": 334948,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.97",
-                    ">",
-                    "query.fastq.97.sam",
-                    "2>",
-                    "query.fastq.97.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000100",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.97",
+                        ">",
+                        "query.fastq.97.sam",
+                        "2>",
+                        "query.fastq.97.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000101",
@@ -9006,19 +9506,24 @@
                 "bytesRead": 334951,
                 "bytesWritten": 1000,
                 "memory": 5000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.98",
-                    ">",
-                    "query.fastq.98.sam",
-                    "2>",
-                    "query.fastq.98.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000101",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.98",
+                        ">",
+                        "query.fastq.98.sam",
+                        "2>",
+                        "query.fastq.98.err"
+                    ]
+                }
             },
             {
                 "name": "bwa_ID000102",
@@ -9089,19 +9594,24 @@
                 "bytesRead": 167478,
                 "bytesWritten": 500,
                 "memory": 3000,
-                "arguments": [
-                    "./bwa",
-                    "mem",
-                    "-v",
-                    "0",
-                    "ref.fastq",
-                    "query.fastq.99",
-                    ">",
-                    "query.fastq.99.sam",
-                    "2>",
-                    "query.fastq.99.err"
-                ],
-                "machine": "worker-3.novalocal"
+                "machine": "worker-3.novalocal",
+                "id": "ID000102",
+                "category": "bwa",
+                "command": {
+                    "program": "bwa",
+                    "arguments": [
+                        "./bwa",
+                        "mem",
+                        "-v",
+                        "0",
+                        "ref.fastq",
+                        "query.fastq.99",
+                        ">",
+                        "query.fastq.99.sam",
+                        "2>",
+                        "query.fastq.99.err"
+                    ]
+                }
             },
             {
                 "name": "cat_bwa_ID000103",
@@ -9727,12 +10237,17 @@
                 "bytesRead": 98770,
                 "bytesWritten": 6570,
                 "memory": 5000,
-                "arguments": [
-                    "cat_bwa",
-                    "query.sam",
-                    "query.fastq.*.sam"
-                ],
-                "machine": "worker-1.novalocal"
+                "machine": "worker-1.novalocal",
+                "id": "ID000103",
+                "category": "cat_bwa",
+                "command": {
+                    "program": "cat_bwa",
+                    "arguments": [
+                        "cat_bwa",
+                        "query.sam",
+                        "query.fastq.*.sam"
+                    ]
+                }
             },
             {
                 "name": "cat_ID000104",
@@ -10353,13 +10868,18 @@
                 "bytesRead": 25,
                 "bytesWritten": 15,
                 "memory": 3000,
-                "arguments": [
-                    "cat",
-                    "query.fastq.*.err",
-                    ">",
-                    "query.err"
-                ],
-                "machine": "worker-1.novalocal"
+                "machine": "worker-1.novalocal",
+                "id": "ID000104",
+                "category": "cat",
+                "command": {
+                    "program": "cat",
+                    "arguments": [
+                        "cat",
+                        "query.fastq.*.err",
+                        ">",
+                        "query.err"
+                    ]
+                }
             }
         ],
         "machines": [

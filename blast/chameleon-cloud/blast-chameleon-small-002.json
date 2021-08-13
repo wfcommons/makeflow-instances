@@ -2,7 +2,7 @@
     "name": "makeflow-blast-small",
     "description": "Trace generated with WorkflowHub - https://workflowhub.org",
     "createdAt": "2020-12-30T02:24:13.593719",
-    "schemaVersion": "1.0",
+    "schemaVersion": "1.2",
     "author": {
         "name": "rafsilva",
         "email": "support@workflowhub.org"
@@ -280,12 +280,17 @@
                 "bytesRead": 660,
                 "bytesWritten": 312,
                 "memory": 3000,
-                "arguments": [
-                    "./split_fasta",
-                    "5",
-                    "small.fasta"
-                ],
-                "machine": "worker-1.novalocal"
+                "machine": "worker-1.novalocal",
+                "id": "ID000001",
+                "category": "split_fasta",
+                "command": {
+                    "program": "split_fasta",
+                    "arguments": [
+                        "./split_fasta",
+                        "5",
+                        "small.fasta"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000002",
@@ -330,20 +335,25 @@
                 "bytesRead": 49,
                 "bytesWritten": 23,
                 "memory": 508000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.0",
-                    "-o",
-                    "small.fasta.0.out",
-                    "2>",
-                    "small.fasta.0.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000002",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.0",
+                        "-o",
+                        "small.fasta.0.out",
+                        "2>",
+                        "small.fasta.0.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000003",
@@ -388,20 +398,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 39,
                 "memory": 469000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.1",
-                    "-o",
-                    "small.fasta.1.out",
-                    "2>",
-                    "small.fasta.1.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000003",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.1",
+                        "-o",
+                        "small.fasta.1.out",
+                        "2>",
+                        "small.fasta.1.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000004",
@@ -446,20 +461,25 @@
                 "bytesRead": 50,
                 "bytesWritten": 23,
                 "memory": 487000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.2",
-                    "-o",
-                    "small.fasta.2.out",
-                    "2>",
-                    "small.fasta.2.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000004",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.2",
+                        "-o",
+                        "small.fasta.2.out",
+                        "2>",
+                        "small.fasta.2.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000005",
@@ -504,20 +524,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 23,
                 "memory": 492000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.3",
-                    "-o",
-                    "small.fasta.3.out",
-                    "2>",
-                    "small.fasta.3.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000005",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.3",
+                        "-o",
+                        "small.fasta.3.out",
+                        "2>",
+                        "small.fasta.3.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000006",
@@ -562,20 +587,25 @@
                 "bytesRead": 48,
                 "bytesWritten": 23,
                 "memory": 473000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.4",
-                    "-o",
-                    "small.fasta.4.out",
-                    "2>",
-                    "small.fasta.4.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000006",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.4",
+                        "-o",
+                        "small.fasta.4.out",
+                        "2>",
+                        "small.fasta.4.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000007",
@@ -620,20 +650,25 @@
                 "bytesRead": 51,
                 "bytesWritten": 23,
                 "memory": 562000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.5",
-                    "-o",
-                    "small.fasta.5.out",
-                    "2>",
-                    "small.fasta.5.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000007",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.5",
+                        "-o",
+                        "small.fasta.5.out",
+                        "2>",
+                        "small.fasta.5.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000008",
@@ -678,20 +713,25 @@
                 "bytesRead": 51,
                 "bytesWritten": 23,
                 "memory": 477000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.6",
-                    "-o",
-                    "small.fasta.6.out",
-                    "2>",
-                    "small.fasta.6.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000008",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.6",
+                        "-o",
+                        "small.fasta.6.out",
+                        "2>",
+                        "small.fasta.6.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000009",
@@ -736,20 +776,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 23,
                 "memory": 503000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.7",
-                    "-o",
-                    "small.fasta.7.out",
-                    "2>",
-                    "small.fasta.7.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000009",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.7",
+                        "-o",
+                        "small.fasta.7.out",
+                        "2>",
+                        "small.fasta.7.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000010",
@@ -794,20 +839,25 @@
                 "bytesRead": 50,
                 "bytesWritten": 23,
                 "memory": 491000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.8",
-                    "-o",
-                    "small.fasta.8.out",
-                    "2>",
-                    "small.fasta.8.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000010",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.8",
+                        "-o",
+                        "small.fasta.8.out",
+                        "2>",
+                        "small.fasta.8.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000011",
@@ -852,20 +902,25 @@
                 "bytesRead": 52,
                 "bytesWritten": 31,
                 "memory": 482000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.9",
-                    "-o",
-                    "small.fasta.9.out",
-                    "2>",
-                    "small.fasta.9.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000011",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.9",
+                        "-o",
+                        "small.fasta.9.out",
+                        "2>",
+                        "small.fasta.9.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000012",
@@ -910,20 +965,25 @@
                 "bytesRead": 47,
                 "bytesWritten": 31,
                 "memory": 499000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.10",
-                    "-o",
-                    "small.fasta.10.out",
-                    "2>",
-                    "small.fasta.10.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000012",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.10",
+                        "-o",
+                        "small.fasta.10.out",
+                        "2>",
+                        "small.fasta.10.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000013",
@@ -968,20 +1028,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 39,
                 "memory": 505000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.11",
-                    "-o",
-                    "small.fasta.11.out",
-                    "2>",
-                    "small.fasta.11.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000013",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.11",
+                        "-o",
+                        "small.fasta.11.out",
+                        "2>",
+                        "small.fasta.11.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000014",
@@ -1026,20 +1091,25 @@
                 "bytesRead": 52,
                 "bytesWritten": 23,
                 "memory": 480000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.12",
-                    "-o",
-                    "small.fasta.12.out",
-                    "2>",
-                    "small.fasta.12.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000014",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.12",
+                        "-o",
+                        "small.fasta.12.out",
+                        "2>",
+                        "small.fasta.12.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000015",
@@ -1084,20 +1154,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 23,
                 "memory": 475000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.13",
-                    "-o",
-                    "small.fasta.13.out",
-                    "2>",
-                    "small.fasta.13.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000015",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.13",
+                        "-o",
+                        "small.fasta.13.out",
+                        "2>",
+                        "small.fasta.13.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000016",
@@ -1142,20 +1217,25 @@
                 "bytesRead": 50,
                 "bytesWritten": 31,
                 "memory": 481000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.14",
-                    "-o",
-                    "small.fasta.14.out",
-                    "2>",
-                    "small.fasta.14.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000016",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.14",
+                        "-o",
+                        "small.fasta.14.out",
+                        "2>",
+                        "small.fasta.14.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000017",
@@ -1200,20 +1280,25 @@
                 "bytesRead": 51,
                 "bytesWritten": 23,
                 "memory": 559000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.15",
-                    "-o",
-                    "small.fasta.15.out",
-                    "2>",
-                    "small.fasta.15.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000017",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.15",
+                        "-o",
+                        "small.fasta.15.out",
+                        "2>",
+                        "small.fasta.15.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000018",
@@ -1258,20 +1343,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 23,
                 "memory": 495000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.16",
-                    "-o",
-                    "small.fasta.16.out",
-                    "2>",
-                    "small.fasta.16.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000018",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.16",
+                        "-o",
+                        "small.fasta.16.out",
+                        "2>",
+                        "small.fasta.16.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000019",
@@ -1316,20 +1406,25 @@
                 "bytesRead": 51,
                 "bytesWritten": 23,
                 "memory": 482000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.17",
-                    "-o",
-                    "small.fasta.17.out",
-                    "2>",
-                    "small.fasta.17.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000019",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.17",
+                        "-o",
+                        "small.fasta.17.out",
+                        "2>",
+                        "small.fasta.17.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000020",
@@ -1374,20 +1469,25 @@
                 "bytesRead": 51,
                 "bytesWritten": 23,
                 "memory": 535000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.18",
-                    "-o",
-                    "small.fasta.18.out",
-                    "2>",
-                    "small.fasta.18.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000020",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.18",
+                        "-o",
+                        "small.fasta.18.out",
+                        "2>",
+                        "small.fasta.18.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000021",
@@ -1432,20 +1532,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 54,
                 "memory": 538000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.19",
-                    "-o",
-                    "small.fasta.19.out",
-                    "2>",
-                    "small.fasta.19.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000021",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.19",
+                        "-o",
+                        "small.fasta.19.out",
+                        "2>",
+                        "small.fasta.19.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000022",
@@ -1490,20 +1595,25 @@
                 "bytesRead": 45,
                 "bytesWritten": 31,
                 "memory": 606000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.20",
-                    "-o",
-                    "small.fasta.20.out",
-                    "2>",
-                    "small.fasta.20.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000022",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.20",
+                        "-o",
+                        "small.fasta.20.out",
+                        "2>",
+                        "small.fasta.20.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000023",
@@ -1548,20 +1658,25 @@
                 "bytesRead": 51,
                 "bytesWritten": 23,
                 "memory": 529000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.21",
-                    "-o",
-                    "small.fasta.21.out",
-                    "2>",
-                    "small.fasta.21.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000023",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.21",
+                        "-o",
+                        "small.fasta.21.out",
+                        "2>",
+                        "small.fasta.21.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000024",
@@ -1606,20 +1721,25 @@
                 "bytesRead": 51,
                 "bytesWritten": 31,
                 "memory": 946000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.22",
-                    "-o",
-                    "small.fasta.22.out",
-                    "2>",
-                    "small.fasta.22.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000024",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.22",
+                        "-o",
+                        "small.fasta.22.out",
+                        "2>",
+                        "small.fasta.22.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000025",
@@ -1664,20 +1784,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 39,
                 "memory": 465000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.23",
-                    "-o",
-                    "small.fasta.23.out",
-                    "2>",
-                    "small.fasta.23.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000025",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.23",
+                        "-o",
+                        "small.fasta.23.out",
+                        "2>",
+                        "small.fasta.23.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000026",
@@ -1722,20 +1847,25 @@
                 "bytesRead": 45,
                 "bytesWritten": 179,
                 "memory": 946000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.24",
-                    "-o",
-                    "small.fasta.24.out",
-                    "2>",
-                    "small.fasta.24.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000026",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.24",
+                        "-o",
+                        "small.fasta.24.out",
+                        "2>",
+                        "small.fasta.24.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000027",
@@ -1780,20 +1910,25 @@
                 "bytesRead": 47,
                 "bytesWritten": 23,
                 "memory": 480000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.25",
-                    "-o",
-                    "small.fasta.25.out",
-                    "2>",
-                    "small.fasta.25.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000027",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.25",
+                        "-o",
+                        "small.fasta.25.out",
+                        "2>",
+                        "small.fasta.25.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000028",
@@ -1838,20 +1973,25 @@
                 "bytesRead": 49,
                 "bytesWritten": 23,
                 "memory": 505000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.26",
-                    "-o",
-                    "small.fasta.26.out",
-                    "2>",
-                    "small.fasta.26.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000028",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.26",
+                        "-o",
+                        "small.fasta.26.out",
+                        "2>",
+                        "small.fasta.26.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000029",
@@ -1896,20 +2036,25 @@
                 "bytesRead": 50,
                 "bytesWritten": 23,
                 "memory": 505000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.27",
-                    "-o",
-                    "small.fasta.27.out",
-                    "2>",
-                    "small.fasta.27.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000029",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.27",
+                        "-o",
+                        "small.fasta.27.out",
+                        "2>",
+                        "small.fasta.27.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000030",
@@ -1954,20 +2099,25 @@
                 "bytesRead": 51,
                 "bytesWritten": 23,
                 "memory": 484000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.28",
-                    "-o",
-                    "small.fasta.28.out",
-                    "2>",
-                    "small.fasta.28.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000030",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.28",
+                        "-o",
+                        "small.fasta.28.out",
+                        "2>",
+                        "small.fasta.28.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000031",
@@ -2012,20 +2162,25 @@
                 "bytesRead": 50,
                 "bytesWritten": 23,
                 "memory": 514000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.29",
-                    "-o",
-                    "small.fasta.29.out",
-                    "2>",
-                    "small.fasta.29.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000031",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.29",
+                        "-o",
+                        "small.fasta.29.out",
+                        "2>",
+                        "small.fasta.29.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000032",
@@ -2070,20 +2225,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 15,
                 "memory": 490000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.30",
-                    "-o",
-                    "small.fasta.30.out",
-                    "2>",
-                    "small.fasta.30.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000032",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.30",
+                        "-o",
+                        "small.fasta.30.out",
+                        "2>",
+                        "small.fasta.30.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000033",
@@ -2128,20 +2288,25 @@
                 "bytesRead": 48,
                 "bytesWritten": 23,
                 "memory": 492000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.31",
-                    "-o",
-                    "small.fasta.31.out",
-                    "2>",
-                    "small.fasta.31.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000033",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.31",
+                        "-o",
+                        "small.fasta.31.out",
+                        "2>",
+                        "small.fasta.31.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000034",
@@ -2186,20 +2351,25 @@
                 "bytesRead": 48,
                 "bytesWritten": 23,
                 "memory": 521000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.32",
-                    "-o",
-                    "small.fasta.32.out",
-                    "2>",
-                    "small.fasta.32.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000034",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.32",
+                        "-o",
+                        "small.fasta.32.out",
+                        "2>",
+                        "small.fasta.32.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000035",
@@ -2244,20 +2414,25 @@
                 "bytesRead": 45,
                 "bytesWritten": 23,
                 "memory": 499000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.33",
-                    "-o",
-                    "small.fasta.33.out",
-                    "2>",
-                    "small.fasta.33.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000035",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.33",
+                        "-o",
+                        "small.fasta.33.out",
+                        "2>",
+                        "small.fasta.33.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000036",
@@ -2302,20 +2477,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 31,
                 "memory": 484000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.34",
-                    "-o",
-                    "small.fasta.34.out",
-                    "2>",
-                    "small.fasta.34.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000036",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.34",
+                        "-o",
+                        "small.fasta.34.out",
+                        "2>",
+                        "small.fasta.34.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000037",
@@ -2360,20 +2540,25 @@
                 "bytesRead": 47,
                 "bytesWritten": 31,
                 "memory": 496000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.35",
-                    "-o",
-                    "small.fasta.35.out",
-                    "2>",
-                    "small.fasta.35.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000037",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.35",
+                        "-o",
+                        "small.fasta.35.out",
+                        "2>",
+                        "small.fasta.35.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000038",
@@ -2418,20 +2603,25 @@
                 "bytesRead": 52,
                 "bytesWritten": 31,
                 "memory": 517000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.36",
-                    "-o",
-                    "small.fasta.36.out",
-                    "2>",
-                    "small.fasta.36.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000038",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.36",
+                        "-o",
+                        "small.fasta.36.out",
+                        "2>",
+                        "small.fasta.36.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000039",
@@ -2476,20 +2666,25 @@
                 "bytesRead": 46,
                 "bytesWritten": 39,
                 "memory": 483000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.37",
-                    "-o",
-                    "small.fasta.37.out",
-                    "2>",
-                    "small.fasta.37.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000039",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.37",
+                        "-o",
+                        "small.fasta.37.out",
+                        "2>",
+                        "small.fasta.37.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000040",
@@ -2534,20 +2729,25 @@
                 "bytesRead": 50,
                 "bytesWritten": 31,
                 "memory": 508000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.38",
-                    "-o",
-                    "small.fasta.38.out",
-                    "2>",
-                    "small.fasta.38.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000040",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.38",
+                        "-o",
+                        "small.fasta.38.out",
+                        "2>",
+                        "small.fasta.38.err"
+                    ]
+                }
             },
             {
                 "name": "blastall_ID000041",
@@ -2592,20 +2792,25 @@
                 "bytesRead": 50,
                 "bytesWritten": 23,
                 "memory": 518000,
-                "arguments": [
-                    "./blastall",
-                    "-p",
-                    "blastn",
-                    "-d",
-                    "nt/nt",
-                    "-i",
-                    "small.fasta.39",
-                    "-o",
-                    "small.fasta.39.out",
-                    "2>",
-                    "small.fasta.39.err"
-                ],
-                "machine": "worker-2.novalocal"
+                "machine": "worker-2.novalocal",
+                "id": "ID000041",
+                "category": "blastall",
+                "command": {
+                    "program": "blastall",
+                    "arguments": [
+                        "./blastall",
+                        "-p",
+                        "blastn",
+                        "-d",
+                        "nt/nt",
+                        "-i",
+                        "small.fasta.39",
+                        "-o",
+                        "small.fasta.39.out",
+                        "2>",
+                        "small.fasta.39.err"
+                    ]
+                }
             },
             {
                 "name": "cat_blast_ID000042",
@@ -2871,51 +3076,56 @@
                 "bytesRead": 1114,
                 "bytesWritten": 476,
                 "memory": 3000,
-                "arguments": [
-                    "./cat_blast",
-                    "None",
-                    "small.fasta.0.out",
-                    "small.fasta.1.out",
-                    "small.fasta.2.out",
-                    "small.fasta.3.out",
-                    "small.fasta.4.out",
-                    "small.fasta.5.out",
-                    "small.fasta.6.out",
-                    "small.fasta.7.out",
-                    "small.fasta.8.out",
-                    "small.fasta.9.out",
-                    "small.fasta.10.out",
-                    "small.fasta.11.out",
-                    "small.fasta.12.out",
-                    "small.fasta.13.out",
-                    "small.fasta.14.out",
-                    "small.fasta.15.out",
-                    "small.fasta.16.out",
-                    "small.fasta.17.out",
-                    "small.fasta.18.out",
-                    "small.fasta.19.out",
-                    "small.fasta.20.out",
-                    "small.fasta.21.out",
-                    "small.fasta.22.out",
-                    "small.fasta.23.out",
-                    "small.fasta.24.out",
-                    "small.fasta.25.out",
-                    "small.fasta.26.out",
-                    "small.fasta.27.out",
-                    "small.fasta.28.out",
-                    "small.fasta.29.out",
-                    "small.fasta.30.out",
-                    "small.fasta.31.out",
-                    "small.fasta.32.out",
-                    "small.fasta.33.out",
-                    "small.fasta.34.out",
-                    "small.fasta.35.out",
-                    "small.fasta.36.out",
-                    "small.fasta.37.out",
-                    "small.fasta.38.out",
-                    "small.fasta.39.out"
-                ],
-                "machine": "worker-1.novalocal"
+                "machine": "worker-1.novalocal",
+                "id": "ID000042",
+                "category": "cat_blast",
+                "command": {
+                    "program": "cat_blast",
+                    "arguments": [
+                        "./cat_blast",
+                        "None",
+                        "small.fasta.0.out",
+                        "small.fasta.1.out",
+                        "small.fasta.2.out",
+                        "small.fasta.3.out",
+                        "small.fasta.4.out",
+                        "small.fasta.5.out",
+                        "small.fasta.6.out",
+                        "small.fasta.7.out",
+                        "small.fasta.8.out",
+                        "small.fasta.9.out",
+                        "small.fasta.10.out",
+                        "small.fasta.11.out",
+                        "small.fasta.12.out",
+                        "small.fasta.13.out",
+                        "small.fasta.14.out",
+                        "small.fasta.15.out",
+                        "small.fasta.16.out",
+                        "small.fasta.17.out",
+                        "small.fasta.18.out",
+                        "small.fasta.19.out",
+                        "small.fasta.20.out",
+                        "small.fasta.21.out",
+                        "small.fasta.22.out",
+                        "small.fasta.23.out",
+                        "small.fasta.24.out",
+                        "small.fasta.25.out",
+                        "small.fasta.26.out",
+                        "small.fasta.27.out",
+                        "small.fasta.28.out",
+                        "small.fasta.29.out",
+                        "small.fasta.30.out",
+                        "small.fasta.31.out",
+                        "small.fasta.32.out",
+                        "small.fasta.33.out",
+                        "small.fasta.34.out",
+                        "small.fasta.35.out",
+                        "small.fasta.36.out",
+                        "small.fasta.37.out",
+                        "small.fasta.38.out",
+                        "small.fasta.39.out"
+                    ]
+                }
             },
             {
                 "name": "cat_ID000043",
@@ -3175,52 +3385,57 @@
                 "avgCPU": 65.9735,
                 "bytesRead": 12,
                 "memory": 3000,
-                "arguments": [
-                    "cat",
-                    "small.fasta.0.err",
-                    "small.fasta.1.err",
-                    "small.fasta.2.err",
-                    "small.fasta.3.err",
-                    "small.fasta.4.err",
-                    "small.fasta.5.err",
-                    "small.fasta.6.err",
-                    "small.fasta.7.err",
-                    "small.fasta.8.err",
-                    "small.fasta.9.err",
-                    "small.fasta.10.err",
-                    "small.fasta.11.err",
-                    "small.fasta.12.err",
-                    "small.fasta.13.err",
-                    "small.fasta.14.err",
-                    "small.fasta.15.err",
-                    "small.fasta.16.err",
-                    "small.fasta.17.err",
-                    "small.fasta.18.err",
-                    "small.fasta.19.err",
-                    "small.fasta.20.err",
-                    "small.fasta.21.err",
-                    "small.fasta.22.err",
-                    "small.fasta.23.err",
-                    "small.fasta.24.err",
-                    "small.fasta.25.err",
-                    "small.fasta.26.err",
-                    "small.fasta.27.err",
-                    "small.fasta.28.err",
-                    "small.fasta.29.err",
-                    "small.fasta.30.err",
-                    "small.fasta.31.err",
-                    "small.fasta.32.err",
-                    "small.fasta.33.err",
-                    "small.fasta.34.err",
-                    "small.fasta.35.err",
-                    "small.fasta.36.err",
-                    "small.fasta.37.err",
-                    "small.fasta.38.err",
-                    "small.fasta.39.err",
-                    ">",
-                    "None.err"
-                ],
-                "machine": "worker-1.novalocal"
+                "machine": "worker-1.novalocal",
+                "id": "ID000043",
+                "category": "cat",
+                "command": {
+                    "program": "cat",
+                    "arguments": [
+                        "cat",
+                        "small.fasta.0.err",
+                        "small.fasta.1.err",
+                        "small.fasta.2.err",
+                        "small.fasta.3.err",
+                        "small.fasta.4.err",
+                        "small.fasta.5.err",
+                        "small.fasta.6.err",
+                        "small.fasta.7.err",
+                        "small.fasta.8.err",
+                        "small.fasta.9.err",
+                        "small.fasta.10.err",
+                        "small.fasta.11.err",
+                        "small.fasta.12.err",
+                        "small.fasta.13.err",
+                        "small.fasta.14.err",
+                        "small.fasta.15.err",
+                        "small.fasta.16.err",
+                        "small.fasta.17.err",
+                        "small.fasta.18.err",
+                        "small.fasta.19.err",
+                        "small.fasta.20.err",
+                        "small.fasta.21.err",
+                        "small.fasta.22.err",
+                        "small.fasta.23.err",
+                        "small.fasta.24.err",
+                        "small.fasta.25.err",
+                        "small.fasta.26.err",
+                        "small.fasta.27.err",
+                        "small.fasta.28.err",
+                        "small.fasta.29.err",
+                        "small.fasta.30.err",
+                        "small.fasta.31.err",
+                        "small.fasta.32.err",
+                        "small.fasta.33.err",
+                        "small.fasta.34.err",
+                        "small.fasta.35.err",
+                        "small.fasta.36.err",
+                        "small.fasta.37.err",
+                        "small.fasta.38.err",
+                        "small.fasta.39.err",
+                        ">",
+                        "None.err"
+                    ]
+                }
             }
         ],
         "machines": [
