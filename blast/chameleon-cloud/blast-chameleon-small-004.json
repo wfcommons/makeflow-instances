@@ -2,7 +2,7 @@
     "name": "makeflow-blast-small",
     "description": "Trace generated with WorkflowHub - https://workflowhub.org",
     "createdAt": "2020-12-30T02:24:13.723268",
-    "schemaVersion": "1.3",
+    "schemaVersion": "1.4",
     "author": {
         "name": "rafsilva",
         "email": "support@workflowhub.org"
@@ -14,7 +14,6 @@
     },
     "workflow": {
         "executedAt": "2020-12-25T21:52:58+00:00",
-        "makespan": 1196.62,
         "machines": [
             {
                 "nodeName": "worker-1.novalocal",
@@ -33,7 +32,6 @@
             {
                 "name": "split_fasta_ID000001",
                 "type": "compute",
-                "runtime": 0.055624,
                 "parents": [],
                 "children": [
                     "blastall_ID000002",
@@ -81,212 +79,212 @@
                     {
                         "link": "output",
                         "name": "small.fasta.0",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.1",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.2",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.3",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.4",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.5",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.6",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.7",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.8",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.9",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.10",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.11",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.12",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.13",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.14",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.15",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.16",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.17",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.18",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.19",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.20",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.21",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.22",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.23",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.24",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.25",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.26",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.27",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.28",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.29",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.30",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.31",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.32",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.33",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.34",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.35",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.36",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.37",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.38",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.39",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "small.fasta",
-                        "size": 203
+                        "sizeInBytes": 203
                     },
                     {
                         "link": "input",
                         "name": "split_fasta",
-                        "size": 1
+                        "sizeInBytes": 1
                     }
                 ],
                 "cores": 1,
@@ -304,12 +302,15 @@
                         "5",
                         "small.fasta"
                     ]
-                }
+                },
+                "runtimeInSeconds": 0.055624,
+                "readBytes": 660000,
+                "writtenBytes": 312000,
+                "memoryInBytes": 3000000
             },
             {
                 "name": "blastall_ID000002",
                 "type": "compute",
-                "runtime": 8.686055,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -321,27 +322,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.0.out",
-                        "size": 10
+                        "sizeInBytes": 10
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.0.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.0",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -367,12 +368,15 @@
                         "2>",
                         "small.fasta.0.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.686055,
+                "readBytes": 48000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 554000000
             },
             {
                 "name": "blastall_ID000003",
                 "type": "compute",
-                "runtime": 8.350344,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -384,27 +388,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.1.out",
-                        "size": 12
+                        "sizeInBytes": 12
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.1.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.1",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -430,12 +434,15 @@
                         "2>",
                         "small.fasta.1.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.350344,
+                "readBytes": 50000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 579000000
             },
             {
                 "name": "blastall_ID000004",
                 "type": "compute",
-                "runtime": 8.870847,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -447,27 +454,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.2.out",
-                        "size": 10
+                        "sizeInBytes": 10
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.2.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.2",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -493,12 +500,15 @@
                         "2>",
                         "small.fasta.2.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.870847,
+                "readBytes": 46000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 548000000
             },
             {
                 "name": "blastall_ID000005",
                 "type": "compute",
-                "runtime": 9.512769,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -510,27 +520,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.3.out",
-                        "size": 20
+                        "sizeInBytes": 20
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.3.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.3",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -556,12 +566,15 @@
                         "2>",
                         "small.fasta.3.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.512769,
+                "readBytes": 50000,
+                "writtenBytes": 39000,
+                "memoryInBytes": 511000000
             },
             {
                 "name": "blastall_ID000006",
                 "type": "compute",
-                "runtime": 10.159649,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -573,27 +586,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.4.out",
-                        "size": 100
+                        "sizeInBytes": 100
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.4.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.4",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -619,12 +632,15 @@
                         "2>",
                         "small.fasta.4.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 10.159649,
+                "readBytes": 46000,
+                "writtenBytes": 195000,
+                "memoryInBytes": 511000000
             },
             {
                 "name": "blastall_ID000007",
                 "type": "compute",
-                "runtime": 9.426604,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -636,27 +652,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.5.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.5.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.5",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -682,12 +698,15 @@
                         "2>",
                         "small.fasta.5.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.426604,
+                "readBytes": 46000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 486000000
             },
             {
                 "name": "blastall_ID000008",
                 "type": "compute",
-                "runtime": 9.220697,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -699,27 +718,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.6.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.6.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.6",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -745,12 +764,15 @@
                         "2>",
                         "small.fasta.6.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.220697,
+                "readBytes": 46000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 534000000
             },
             {
                 "name": "blastall_ID000009",
                 "type": "compute",
-                "runtime": 9.374924,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -762,27 +784,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.7.out",
-                        "size": 25
+                        "sizeInBytes": 25
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.7.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.7",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -808,12 +830,15 @@
                         "2>",
                         "small.fasta.7.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.374924,
+                "readBytes": 46000,
+                "writtenBytes": 54000,
+                "memoryInBytes": 531000000
             },
             {
                 "name": "blastall_ID000010",
                 "type": "compute",
-                "runtime": 9.601383,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -825,27 +850,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.8.out",
-                        "size": 40
+                        "sizeInBytes": 40
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.8.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.8",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -871,12 +896,15 @@
                         "2>",
                         "small.fasta.8.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.601383,
+                "readBytes": 51000,
+                "writtenBytes": 78000,
+                "memoryInBytes": 504000000
             },
             {
                 "name": "blastall_ID000011",
                 "type": "compute",
-                "runtime": 9.840562,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -888,27 +916,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.9.out",
-                        "size": 9
+                        "sizeInBytes": 9
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.9.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.9",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -934,12 +962,15 @@
                         "2>",
                         "small.fasta.9.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.840562,
+                "readBytes": 50000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 489000000
             },
             {
                 "name": "blastall_ID000012",
                 "type": "compute",
-                "runtime": 9.542971,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -951,27 +982,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.10.out",
-                        "size": 12
+                        "sizeInBytes": 12
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.10.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.10",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -997,12 +1028,15 @@
                         "2>",
                         "small.fasta.10.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.542971,
+                "readBytes": 46000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 531000000
             },
             {
                 "name": "blastall_ID000013",
                 "type": "compute",
-                "runtime": 9.874427,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1014,27 +1048,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.11.out",
-                        "size": 14
+                        "sizeInBytes": 14
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.11.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.11",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1060,12 +1094,15 @@
                         "2>",
                         "small.fasta.11.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.874427,
+                "readBytes": 51000,
+                "writtenBytes": 31000,
+                "memoryInBytes": 540000000
             },
             {
                 "name": "blastall_ID000014",
                 "type": "compute",
-                "runtime": 11.046388,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1077,27 +1114,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.12.out",
-                        "size": 98
+                        "sizeInBytes": 98
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.12.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.12",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1123,12 +1160,15 @@
                         "2>",
                         "small.fasta.12.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 11.046388,
+                "readBytes": 46000,
+                "writtenBytes": 187000,
+                "memoryInBytes": 946000000
             },
             {
                 "name": "blastall_ID000015",
                 "type": "compute",
-                "runtime": 9.26506,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1140,27 +1180,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.13.out",
-                        "size": 16
+                        "sizeInBytes": 16
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.13.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.13",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1186,12 +1226,15 @@
                         "2>",
                         "small.fasta.13.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.26506,
+                "readBytes": 46000,
+                "writtenBytes": 31000,
+                "memoryInBytes": 525000000
             },
             {
                 "name": "blastall_ID000016",
                 "type": "compute",
-                "runtime": 9.818678,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1203,27 +1246,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.14.out",
-                        "size": 7
+                        "sizeInBytes": 7
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.14.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.14",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1249,12 +1292,15 @@
                         "2>",
                         "small.fasta.14.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.818678,
+                "readBytes": 46000,
+                "writtenBytes": 15000,
+                "memoryInBytes": 486000000
             },
             {
                 "name": "blastall_ID000017",
                 "type": "compute",
-                "runtime": 8.996971,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1266,27 +1312,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.15.out",
-                        "size": 8
+                        "sizeInBytes": 8
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.15.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.15",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1312,12 +1358,15 @@
                         "2>",
                         "small.fasta.15.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.996971,
+                "readBytes": 50000,
+                "writtenBytes": 15000,
+                "memoryInBytes": 538000000
             },
             {
                 "name": "blastall_ID000018",
                 "type": "compute",
-                "runtime": 9.512414,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1329,27 +1378,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.16.out",
-                        "size": 22
+                        "sizeInBytes": 22
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.16.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.16",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1375,12 +1424,15 @@
                         "2>",
                         "small.fasta.16.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.512414,
+                "readBytes": 48000,
+                "writtenBytes": 46000,
+                "memoryInBytes": 517000000
             },
             {
                 "name": "blastall_ID000019",
                 "type": "compute",
-                "runtime": 9.509107,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1392,27 +1444,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.17.out",
-                        "size": 16
+                        "sizeInBytes": 16
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.17.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.17",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1438,12 +1490,15 @@
                         "2>",
                         "small.fasta.17.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.509107,
+                "readBytes": 46000,
+                "writtenBytes": 31000,
+                "memoryInBytes": 516000000
             },
             {
                 "name": "blastall_ID000020",
                 "type": "compute",
-                "runtime": 8.915408,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1455,27 +1510,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.18.out",
-                        "size": 26
+                        "sizeInBytes": 26
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.18.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.18",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1501,12 +1556,15 @@
                         "2>",
                         "small.fasta.18.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.915408,
+                "readBytes": 46000,
+                "writtenBytes": 54000,
+                "memoryInBytes": 566000000
             },
             {
                 "name": "blastall_ID000021",
                 "type": "compute",
-                "runtime": 9.146585,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1518,27 +1576,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.19.out",
-                        "size": 13
+                        "sizeInBytes": 13
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.19.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.19",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1564,12 +1622,15 @@
                         "2>",
                         "small.fasta.19.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.146585,
+                "readBytes": 46000,
+                "writtenBytes": 31000,
+                "memoryInBytes": 529000000
             },
             {
                 "name": "blastall_ID000022",
                 "type": "compute",
-                "runtime": 9.112717,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1581,27 +1642,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.20.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.20.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.20",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1627,12 +1688,15 @@
                         "2>",
                         "small.fasta.20.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.112717,
+                "readBytes": 46000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 531000000
             },
             {
                 "name": "blastall_ID000023",
                 "type": "compute",
-                "runtime": 9.321234,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1644,27 +1708,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.21.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.21.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.21",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1690,12 +1754,15 @@
                         "2>",
                         "small.fasta.21.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.321234,
+                "readBytes": 46000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 505000000
             },
             {
                 "name": "blastall_ID000024",
                 "type": "compute",
-                "runtime": 9.246956,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1707,27 +1774,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.22.out",
-                        "size": 12
+                        "sizeInBytes": 12
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.22.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.22",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1753,12 +1820,15 @@
                         "2>",
                         "small.fasta.22.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.246956,
+                "readBytes": 50000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 524000000
             },
             {
                 "name": "blastall_ID000025",
                 "type": "compute",
-                "runtime": 9.341484,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1770,27 +1840,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.23.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.23.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.23",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1816,12 +1886,15 @@
                         "2>",
                         "small.fasta.23.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.341484,
+                "readBytes": 49000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 521000000
             },
             {
                 "name": "blastall_ID000026",
                 "type": "compute",
-                "runtime": 9.087212,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1833,27 +1906,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.24.out",
-                        "size": 10
+                        "sizeInBytes": 10
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.24.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.24",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1879,12 +1952,15 @@
                         "2>",
                         "small.fasta.24.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.087212,
+                "readBytes": 51000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 526000000
             },
             {
                 "name": "blastall_ID000027",
                 "type": "compute",
-                "runtime": 8.943748,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1896,27 +1972,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.25.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.25.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.25",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -1942,12 +2018,15 @@
                         "2>",
                         "small.fasta.25.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.943748,
+                "readBytes": 47000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 553000000
             },
             {
                 "name": "blastall_ID000028",
                 "type": "compute",
-                "runtime": 8.91932,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -1959,27 +2038,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.26.out",
-                        "size": 10
+                        "sizeInBytes": 10
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.26.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.26",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2005,12 +2084,15 @@
                         "2>",
                         "small.fasta.26.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.91932,
+                "readBytes": 45000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 538000000
             },
             {
                 "name": "blastall_ID000029",
                 "type": "compute",
-                "runtime": 9.362694,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2022,27 +2104,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.27.out",
-                        "size": 19
+                        "sizeInBytes": 19
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.27.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.27",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2068,12 +2150,15 @@
                         "2>",
                         "small.fasta.27.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.362694,
+                "readBytes": 45000,
+                "writtenBytes": 39000,
+                "memoryInBytes": 521000000
             },
             {
                 "name": "blastall_ID000030",
                 "type": "compute",
-                "runtime": 8.959346,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2085,27 +2170,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.28.out",
-                        "size": 7
+                        "sizeInBytes": 7
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.28.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.28",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2131,12 +2216,15 @@
                         "2>",
                         "small.fasta.28.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.959346,
+                "readBytes": 46000,
+                "writtenBytes": 15000,
+                "memoryInBytes": 521000000
             },
             {
                 "name": "blastall_ID000031",
                 "type": "compute",
-                "runtime": 9.393279,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2148,27 +2236,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.29.out",
-                        "size": 15
+                        "sizeInBytes": 15
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.29.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.29",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2194,12 +2282,15 @@
                         "2>",
                         "small.fasta.29.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.393279,
+                "readBytes": 50000,
+                "writtenBytes": 31000,
+                "memoryInBytes": 503000000
             },
             {
                 "name": "blastall_ID000032",
                 "type": "compute",
-                "runtime": 9.716185,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2211,27 +2302,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.30.out",
-                        "size": 25
+                        "sizeInBytes": 25
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.30.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.30",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2257,12 +2348,15 @@
                         "2>",
                         "small.fasta.30.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.716185,
+                "readBytes": 46000,
+                "writtenBytes": 54000,
+                "memoryInBytes": 494000000
             },
             {
                 "name": "blastall_ID000033",
                 "type": "compute",
-                "runtime": 8.97718,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2274,27 +2368,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.31.out",
-                        "size": 13
+                        "sizeInBytes": 13
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.31.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.31",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2320,12 +2414,15 @@
                         "2>",
                         "small.fasta.31.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.97718,
+                "readBytes": 51000,
+                "writtenBytes": 31000,
+                "memoryInBytes": 534000000
             },
             {
                 "name": "blastall_ID000034",
                 "type": "compute",
-                "runtime": 9.398958,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2337,27 +2434,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.32.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.32.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.32",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2383,12 +2480,15 @@
                         "2>",
                         "small.fasta.32.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.398958,
+                "readBytes": 46000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 511000000
             },
             {
                 "name": "blastall_ID000035",
                 "type": "compute",
-                "runtime": 9.434477,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2400,27 +2500,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.33.out",
-                        "size": 13
+                        "sizeInBytes": 13
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.33.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.33",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2446,12 +2546,15 @@
                         "2>",
                         "small.fasta.33.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.434477,
+                "readBytes": 50000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 503000000
             },
             {
                 "name": "blastall_ID000036",
                 "type": "compute",
-                "runtime": 8.626213,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2463,27 +2566,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.34.out",
-                        "size": 17
+                        "sizeInBytes": 17
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.34.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.34",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2509,12 +2612,15 @@
                         "2>",
                         "small.fasta.34.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.626213,
+                "readBytes": 51000,
+                "writtenBytes": 31000,
+                "memoryInBytes": 551000000
             },
             {
                 "name": "blastall_ID000037",
                 "type": "compute",
-                "runtime": 9.95474,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2526,27 +2632,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.35.out",
-                        "size": 24
+                        "sizeInBytes": 24
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.35.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.35",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2572,12 +2678,15 @@
                         "2>",
                         "small.fasta.35.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.95474,
+                "readBytes": 47000,
+                "writtenBytes": 46000,
+                "memoryInBytes": 489000000
             },
             {
                 "name": "blastall_ID000038",
                 "type": "compute",
-                "runtime": 9.5943,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2589,27 +2698,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.36.out",
-                        "size": 14
+                        "sizeInBytes": 14
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.36.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.36",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2635,12 +2744,15 @@
                         "2>",
                         "small.fasta.36.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.5943,
+                "readBytes": 46000,
+                "writtenBytes": 31000,
+                "memoryInBytes": 510000000
             },
             {
                 "name": "blastall_ID000039",
                 "type": "compute",
-                "runtime": 9.529869,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2652,27 +2764,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.37.out",
-                        "size": 23
+                        "sizeInBytes": 23
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.37.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.37",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2698,12 +2810,15 @@
                         "2>",
                         "small.fasta.37.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.529869,
+                "readBytes": 51000,
+                "writtenBytes": 46000,
+                "memoryInBytes": 509000000
             },
             {
                 "name": "blastall_ID000040",
                 "type": "compute",
-                "runtime": 8.572024,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2715,27 +2830,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.38.out",
-                        "size": 10
+                        "sizeInBytes": 10
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.38.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.38",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2761,12 +2876,15 @@
                         "2>",
                         "small.fasta.38.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 8.572024,
+                "readBytes": 51000,
+                "writtenBytes": 23000,
+                "memoryInBytes": 569000000
             },
             {
                 "name": "blastall_ID000041",
                 "type": "compute",
-                "runtime": 9.529844,
                 "parents": [
                     "split_fasta_ID000001"
                 ],
@@ -2778,27 +2896,27 @@
                     {
                         "link": "output",
                         "name": "small.fasta.39.out",
-                        "size": 24
+                        "sizeInBytes": 24
                     },
                     {
                         "link": "output",
                         "name": "small.fasta.39.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "blastall",
-                        "size": 7688
+                        "sizeInBytes": 7688
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.39",
-                        "size": 6
+                        "sizeInBytes": 6
                     },
                     {
                         "link": "input",
                         "name": "nt",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -2824,12 +2942,15 @@
                         "2>",
                         "small.fasta.39.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 9.529844,
+                "readBytes": 50000,
+                "writtenBytes": 46000,
+                "memoryInBytes": 524000000
             },
             {
                 "name": "cat_blast_ID000042",
                 "type": "compute",
-                "runtime": 0.042921,
                 "parents": [
                     "blastall_ID000002",
                     "blastall_ID000003",
@@ -2877,212 +2998,212 @@
                     {
                         "link": "output",
                         "name": "None",
-                        "size": 670
+                        "sizeInBytes": 670
                     },
                     {
                         "link": "input",
                         "name": "cat_blast",
-                        "size": 1
+                        "sizeInBytes": 1
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.0.out",
-                        "size": 10
+                        "sizeInBytes": 10
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.1.out",
-                        "size": 12
+                        "sizeInBytes": 12
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.2.out",
-                        "size": 10
+                        "sizeInBytes": 10
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.3.out",
-                        "size": 20
+                        "sizeInBytes": 20
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.4.out",
-                        "size": 100
+                        "sizeInBytes": 100
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.5.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.6.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.7.out",
-                        "size": 25
+                        "sizeInBytes": 25
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.8.out",
-                        "size": 40
+                        "sizeInBytes": 40
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.9.out",
-                        "size": 9
+                        "sizeInBytes": 9
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.10.out",
-                        "size": 12
+                        "sizeInBytes": 12
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.11.out",
-                        "size": 14
+                        "sizeInBytes": 14
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.12.out",
-                        "size": 98
+                        "sizeInBytes": 98
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.13.out",
-                        "size": 16
+                        "sizeInBytes": 16
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.14.out",
-                        "size": 7
+                        "sizeInBytes": 7
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.15.out",
-                        "size": 8
+                        "sizeInBytes": 8
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.16.out",
-                        "size": 22
+                        "sizeInBytes": 22
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.17.out",
-                        "size": 16
+                        "sizeInBytes": 16
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.18.out",
-                        "size": 26
+                        "sizeInBytes": 26
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.19.out",
-                        "size": 13
+                        "sizeInBytes": 13
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.20.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.21.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.22.out",
-                        "size": 12
+                        "sizeInBytes": 12
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.23.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.24.out",
-                        "size": 10
+                        "sizeInBytes": 10
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.25.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.26.out",
-                        "size": 10
+                        "sizeInBytes": 10
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.27.out",
-                        "size": 19
+                        "sizeInBytes": 19
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.28.out",
-                        "size": 7
+                        "sizeInBytes": 7
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.29.out",
-                        "size": 15
+                        "sizeInBytes": 15
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.30.out",
-                        "size": 25
+                        "sizeInBytes": 25
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.31.out",
-                        "size": 13
+                        "sizeInBytes": 13
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.32.out",
-                        "size": 11
+                        "sizeInBytes": 11
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.33.out",
-                        "size": 13
+                        "sizeInBytes": 13
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.34.out",
-                        "size": 17
+                        "sizeInBytes": 17
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.35.out",
-                        "size": 24
+                        "sizeInBytes": 24
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.36.out",
-                        "size": 14
+                        "sizeInBytes": 14
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.37.out",
-                        "size": 23
+                        "sizeInBytes": 23
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.38.out",
-                        "size": 10
+                        "sizeInBytes": 10
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.39.out",
-                        "size": 24
+                        "sizeInBytes": 24
                     }
                 ],
                 "cores": 1,
@@ -3139,12 +3260,15 @@
                         "small.fasta.38.out",
                         "small.fasta.39.out"
                     ]
-                }
+                },
+                "runtimeInSeconds": 0.042921,
+                "readBytes": 1447000,
+                "writtenBytes": 640000,
+                "memoryInBytes": 3000000
             },
             {
                 "name": "cat_ID000043",
                 "type": "compute",
-                "runtime": 0.009717,
                 "parents": [
                     "blastall_ID000002",
                     "blastall_ID000003",
@@ -3192,207 +3316,207 @@
                     {
                         "link": "output",
                         "name": "None.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.0.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.1.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.2.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.3.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.4.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.5.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.6.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.7.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.8.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.9.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.10.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.11.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.12.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.13.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.14.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.15.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.16.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.17.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.18.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.19.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.20.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.21.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.22.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.23.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.24.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.25.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.26.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.27.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.28.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.29.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.30.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.31.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.32.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.33.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.34.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.35.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.36.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.37.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.38.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     },
                     {
                         "link": "input",
                         "name": "small.fasta.39.err",
-                        "size": 0
+                        "sizeInBytes": 0
                     }
                 ],
                 "cores": 1,
@@ -3449,8 +3573,12 @@
                         ">",
                         "None.err"
                     ]
-                }
+                },
+                "runtimeInSeconds": 0.009717,
+                "readBytes": 12000,
+                "memoryInBytes": 3000000
             }
-        ]
+        ],
+        "makespanInSeconds": 1196.62
     }
 }
